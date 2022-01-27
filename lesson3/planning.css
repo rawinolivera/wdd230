@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Roboto+Condensed:ital,wght@0,300;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: Roboto Condensed;
+    background-color: #319CC6;
+}
+
+header, footer {
+    background-color: #FF6F15;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding: 0;
+}
+
+header,
+nav,
+main,
+footer {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#head {
+    text-align: center;
+    padding: 2rem;
+    color: #FFFFFF;
+    font-size: 2rem;
+    text-shadow: 0.1rem 0.1rem 0.2rem black;
+}
+
+h1 {
+    font-family: Merienda;
+    font-size: 1.5rem;
+}
+
+h2 {
+    padding: .8rem;
+    color: #000000;
+}
+
+p {
+    padding: .5rem;
+}
+
+nav {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px #333;
+    width: 100%;
+}
+
+nav div {
+    flex: 1 1 auto;
+}
+
+nav a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+nav div a {
+    padding: 1rem 5rem;
+    font-weight: bold;
+}
+
+nav div a:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 1rem 5rem;
+    font-weight: bolder;
+}
+
+main {
+    padding: 1rem;
+    background-color: #C7C7C7;
+}
+
+.principal {
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+}
+
+.domain {
+    width: 450px;
+    display: block;
+    margin: auto;
+}
+
+.logo {
+    width: 250px;
+    display: block;
+    margin: auto;
+}
+
+.color {
+    width: 25rem;
+    border: solid 1.5px;
+    display: block;
+    margin: auto;
+    margin-top: 0.7rem;
+}
+
+.pic {
+    width: 16rem;
+    display: block;
+    margin: auto;
+}
+
+#title {
+    font-weight: bolder;
+    padding: 0 1rem;
+}
+
+#structure {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    border: #319CC6 2.5px solid;
+}
+
+td {
+    padding: 0 0.5rem;
+    border: #319CC6 2.5px solid;
+}
+
+#a0 {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+#a1 {
+    font-family: 'Merienda', cursive;
+    font-size: 40px;
+    color: #FFFFFF;
+    text-shadow: 0.1rem 0.1rem 0.2rem black;
+    background-color: #FF6F15;
+    padding: 0.5rem;
+  }
+
+#a2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    padding: 0.5rem;
+}
+
+#a3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+    color: #000000;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+
+#a4 {
+    font-family: 'Merienda', cursive;
+    font-size: 32px;
+    padding: 0.5rem;
+}
+
+#a5 {
+    font-family: 'Merienda', cursive;
+    font-size: 28px;
+    padding: 0.5rem;
+}
+
+#a6 {
+    font-family: 'Merienda', cursive;
+    font-size: 24px;
+    padding: 0.5rem;
+}
+
+#a7 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    padding: 0.5rem;
+}
+
+footer {
+    text-align: center;
+}
+
+@media (min-width: 37.5em) {
+    nav {
+        flex-direction: row;
+    }
+
+    #head {
+        font-size: 3.5rem;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+
+    .text {
+        font-size: 1.2rem;
+    }
+
+    #title {
+        width: 16rem;
+    }
+
+    .pic {
+        width: 16rem;
+        display: block;
+        margin-left: 0;
+    }
+
+    .color {
+        width: 50rem;
+        border: solid 2.5px;
+        display: block;
+        margin: auto;
+        margin-top: 0.7rem;
+    }
+
+    .principal {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+
+    .domain {
+        width: 650px;
+        padding: 0.5rem;
+    }
+    
+    .logo {
+        width: 300px;
+        margin-left: 0;
+        padding: 0.5rem;
+    }
+    
+}

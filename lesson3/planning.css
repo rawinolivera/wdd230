@@ -61,7 +61,7 @@ nav {
 }
 
 nav div {
-    flex: 1 1 auto;
+    flex: 1;
 }
 
 nav a {
@@ -74,14 +74,13 @@ nav a {
 }
 
 nav div a {
-    padding: 1rem 5rem;
+    padding: 1rem;
     font-weight: bold;
 }
 
 nav div a:hover {
     background-color: #000000;
     color: #FFFFFF;
-    padding: 1rem 5rem;
     font-weight: bolder;
 }
 

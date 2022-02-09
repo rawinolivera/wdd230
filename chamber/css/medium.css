@@ -5,7 +5,7 @@
 
     nav ul#primaryNav {
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
         margin-left: 2vw;
         border-left: 1px solid rgba(0,0,0,0.3);
     }

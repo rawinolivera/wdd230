@@ -8,9 +8,20 @@ header {
     margin: .5rem;
 }
 
+#social {
+    display: flex;
+    align-items: center;
+}
+
+#hamburgerBtn {
+    display: flex;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+
 header div a img {
     width: 25px;
-    padding-top: 1rem;
+    padding: 0.1rem;
 }
 
 header nav {
@@ -45,9 +56,6 @@ header h2, p {
 }
 
 button {
-    padding: .5rem;
-    margin: .2rem;
-    
     background: transparent;
     border: none;
     font-size: 2rem;

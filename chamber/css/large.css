@@ -1,9 +1,16 @@
 @media only screen and (min-width: 64rem){
+    header {
+        display: grid;
+        grid-template-columns: 1fr 2fr 4fr 1fr;
+        grid-template-rows: 60px;
+        margin: .5rem;
+    }
+    
     nav ul li a {
         padding: .5rem 1rem;
     }
 
-    button {
+    #hamburgerBtn {
         display: none;
     }
 
@@ -17,10 +24,5 @@
         border: none;
         border-right: 1px solid rgba(0,0,0,0.3);
     }
-
-    nav ul#primaryNav.open {
-        display: none;
-    }
-
 
 }

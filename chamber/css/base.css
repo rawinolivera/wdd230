@@ -171,7 +171,7 @@ footer #phone-n {
 }
 
 footer #location {
-    .5rem;
+    margin: .5rem;
 }
 
 hr {

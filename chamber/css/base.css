@@ -143,6 +143,10 @@ article {
     height: 7rem;
 }
 
+#mix-section article:nth-child(3) {
+    display: none;
+}
+
 #join {
     display: none;
 }

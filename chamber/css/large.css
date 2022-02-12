@@ -1,13 +1,30 @@
 @media only screen and (min-width: 64rem){
     header {
         display: grid;
-        grid-template-columns: 1fr 2fr 4fr 1fr;
-        grid-template-rows: 60px;
-        margin: .5rem;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    #head-title {
+        grid-column: 2 / 5;
+    }
+
+    header nav {
+        grid-column: 5 / 10;
+        grid-row: 1 / 2;
+    }
+
+    header #social {
+        grid-column: 10 / 11;
+        justify-content: center;
     }
     
     nav ul li a {
-        padding: .5rem 1rem;
+        margin: .3rem;
+        padding: 1rem;
+    }
+
+    #head-date {
+        grid-column: 1 / 11;
     }
 
     #hamburgerBtn {

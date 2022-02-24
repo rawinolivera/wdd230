@@ -178,6 +178,12 @@ section article {
     padding: 0;
 }
 
+#news h2 {
+    padding: 0.3rem;
+    margin: 0;
+    font-size: medium;
+}
+
 #mix-section {
     height: 18.3rem;
 }

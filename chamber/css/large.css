@@ -78,12 +78,18 @@
         margin: .5rem;
     }
 
+    section #spotlight1 {
+        height: 14rem;
+    }
+
     #spotlight1 div {
         border-right: 0;
     }
 
     #spotlight1 img {
         width: 10rem;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     section #spotlight2 {
@@ -92,6 +98,8 @@
 
     #spotlight2 img {
         width: 11rem;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #spotlight2 h3 {
@@ -101,8 +109,9 @@
         text-shadow: #319CC6 .1rem .2rem 2rem;
     }
 
-    #spotlight3 {
+    section #spotlight3 {
         padding: 0;
+        height: 13rem;
     }
 
     #spotlight3 div {

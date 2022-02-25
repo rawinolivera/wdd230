@@ -28,3 +28,17 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 // long, medium, short options ... try them
 
 datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
+
+//Day of the Week
+const weekDay = new Date().getDay();
+
+function meetBanner() {
+    if (weekDay == '1' || weekDay == '2'){
+        document.getElementById("banner").style.display = "block"
+    } else {
+        document.getElementById("banner").style.display = "none"
+    }
+}
+
+//Calling the function!
+(meetBanner)();

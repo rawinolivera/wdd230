@@ -185,9 +185,11 @@ section article {
     margin: .5rem 0 0 1rem;
 }
 
-#hero img {
-    width: 100%;
+#hero img { /*
     height: 10rem;
+    width: 100%; */
+    margin-left: 0;
+    margin-right: 0; 
 }
 
 #joinBtn {

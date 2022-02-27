@@ -178,6 +178,10 @@
         font-size: 1.2rem;
     }
 
+    #weather div img {
+        width: 7rem;
+    }
+
     #join {
         grid-column: 1 / 2;
         grid-row: 3 / 4;
@@ -210,8 +214,10 @@
         margin: .5rem 1.25rem .4rem .5rem;
     }
 
-    #hero div img {
-        height: 28.5rem;
+    #hero div img { /*
+        height: 28.5rem; 
+        width: 100%; */
+        margin: 0 auto;
     }
 
     #news {

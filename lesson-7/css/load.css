@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+picture {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 1rem;
+}
+
+picture img {
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -13,4 +13,9 @@ picture {
 picture img {
     margin-left: auto;
     margin-right: auto;
+    transition: filter 1s;
+}
+
+picture img[data-src] {
+    filter: blur(.2em);
 }

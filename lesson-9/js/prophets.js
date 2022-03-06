@@ -7,12 +7,12 @@ fetch(requestURL)
     })
     .then(function (jsonObject) {
         console.table(jsonObject);
-     //   prophets.forEach(displayProphets);
+        const prophets = jsonObject['prophets'];
+        prophets.forEach(displayProphets);
     });
 
-const prophets = jsonObject['prophets'];
+
 //loop
-prophets.forEach(displayProphets);
 
 function displayProphets(prophet) {
     let card = documnent.createElement('section');

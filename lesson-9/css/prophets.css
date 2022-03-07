@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.cards section {
+    border: #000000 1px solid;
+    display: inline;
+}
+
+.cards section img {
+    width: 10rem;
+}

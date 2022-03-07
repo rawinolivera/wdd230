@@ -7,29 +7,33 @@ fetch(requestURL)
     })
     .then(function (jsonObject) {
         console.table(jsonObject);
-     //   prophets.forEach(displayProphets);
+        const prophets = jsonObject['prophets'];
+        prophets.forEach(displayProphets);
     });
 
-const prophets = jsonObject['prophets'];
-//loop
-prophets.forEach(displayProphets);
-
 function displayProphets(prophet) {
-    let card = documnent.createElement('section');
+    let card = document.createElement('section');
     let h2 = document.createElement('h2');
-    let portrait = document.createElement('img');
+    let birthDate = document.createElement('p');
+    let birthPlace = document.createElement('p');
+    let deathDate = document.createElement('p');
+    let image = document.createElement('img');
 
     //change the text context
-    h2.textContent = prophet.name + ' ' + prophet.lastname;
+    h2.textContent = `${prophet.name} ${prophet.lastname}`;
+    birthDate.textContent = `${prophet.birthdate}`;
+    birthPlace.textContent = `${prophet.birthplace}`;
+    deathDate.textContent = `${prophet.death}`;
+    image.src = prophet.imageurl;
+    image.alt = `${prophet.name} ${prophet.lastname} - ${prophet.order}`;
     
-    //built image attributes
-    ____.setAttribute('srl', prophet.imageurl);
-    ____.setAttribute('alt', 'Portrait of' + prophet.name + ' ' + prophet.lastname);
-    ____.setAttribute('loading', 'lazy');
-
     //add/append the section(card) with the h2 element
     card.appendChild(h2);
-    card.appendChild(portrait);
+    card.appendChild(birthDate);
+    card.appendChild(birthPlace);
+    card.appendChild(deathDate);
+    card.appendChild(image);
+
 
     //add/append the existing HTML div with the cards class with the section(card)
     cards.appendChild(card);

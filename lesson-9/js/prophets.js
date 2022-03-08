@@ -23,7 +23,16 @@ function displayProphets(prophet) {
     birthDate.textContent = `Date of Birth: ${prophet.birthdate}`;
     birthPlace.textContent = `Place of Birth: ${prophet.birthplace}`;
     image.src = prophet.imageurl;
-    image.alt = `${prophet.name} ${prophet.lastname} - ${prophet.order}`;
+
+    if (`${prophet.order}` === `1`) {
+        image.alt = `${prophet.name} ${prophet.lastname} - ${prophet.order}st Latter-Day President`;
+    } else if (`${prophet.order}` === `2`){
+        image.alt = `${prophet.name} ${prophet.lastname} - ${prophet.order}nd Latter-Day President`;
+    } else if (`${prophet.order}` === `3`){
+        image.alt = `${prophet.name} ${prophet.lastname} - ${prophet.order}rd Latter-Day President`;
+    } else { 
+    image.alt = `${prophet.name} ${prophet.lastname} - ${prophet.order}th Latter-Day President`;
+    }
     
     //add/append the section(card) with the h2 element
     card.appendChild(h2);

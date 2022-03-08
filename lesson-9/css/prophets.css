@@ -1,14 +1,71 @@
 body {
-    margin: 0;
-    padding: 0;
     text-align: center;
 }
 
+h1 {
+    font-family: tahoma, serif;
+    color: #303f9f;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 1rem;
+    margin: 1.5rem;
+    background-color: #C7C7C7;
+    box-shadow: #000 .1rem .1rem 1.5rem;
+}
+
 .cards section {
-    border: #000000 1px solid;
-    display: inline;
+    border: #b39ddb 1px solid;
+    margin: .15rem;
+    background-color: #d1c4e9;
+    color: #303f9f;
+}
+
+.cards section h2 {
+    font-family: Tahoma, serif;
+    font-size: 1.2rem;
+}
+
+.cards section p {
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    color: #000;
+    font-stretch: condensed;
+    line-height: .5rem;
 }
 
 .cards section img {
     width: 10rem;
+}
+
+footer {
+    font-family: tahoma, serif;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 64em){
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 32.5em) {
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 0 1rem 0;
+        padding: .7rem;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    footer {
+        font-size: 1rem;
+    }
 }

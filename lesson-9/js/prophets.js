@@ -16,14 +16,12 @@ function displayProphets(prophet) {
     let h2 = document.createElement('h2');
     let birthDate = document.createElement('p');
     let birthPlace = document.createElement('p');
-    let deathDate = document.createElement('p');
     let image = document.createElement('img');
 
     //change the text context
     h2.textContent = `${prophet.name} ${prophet.lastname}`;
-    birthDate.textContent = `${prophet.birthdate}`;
-    birthPlace.textContent = `${prophet.birthplace}`;
-    deathDate.textContent = `${prophet.death}`;
+    birthDate.textContent = `Date of Birth: ${prophet.birthdate}`;
+    birthPlace.textContent = `Place of Birth: ${prophet.birthplace}`;
     image.src = prophet.imageurl;
     image.alt = `${prophet.name} ${prophet.lastname} - ${prophet.order}`;
     
@@ -31,7 +29,6 @@ function displayProphets(prophet) {
     card.appendChild(h2);
     card.appendChild(birthDate);
     card.appendChild(birthPlace);
-    card.appendChild(deathDate);
     card.appendChild(image);
 
 

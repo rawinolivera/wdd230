@@ -1,4 +1,4 @@
-/* Last Modified */
+//LAST MODIFIED
 var date = new Date();
 var year = date.getFullYear();
 document.querySelector('#current-year').textContent = year;
@@ -26,7 +26,7 @@ const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
 
 datefield.innerHTML = `<em>${fulldate}</em>`;
 
-//Day of the Week
+//BANNER
 const weekDay = new Date().getDay();
 
 function meetBanner() {
@@ -40,15 +40,15 @@ function meetBanner() {
 //Calling the function!
 (meetBanner)();
 
-//LAZY LOWDING IMAGES
+//LAZY LOADING IMAGES
 
 //getting images
 const imagesToLoad = document.querySelectorAll("img[data-src]");
 
-//optional parameter
+//optional parameter 
 const imgOptions = {
-    threshold: 0,
     rootMargin: "0px 0px 50px 0px",
+    threshold: 1,
 };
 
 const loadImages = (image) => {
@@ -79,7 +79,6 @@ if('IntersectionObserver' in window) {
         loadImages(img);
     });
 }
-
 
 //VISITS COUNT
 

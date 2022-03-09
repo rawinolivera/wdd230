@@ -30,12 +30,15 @@ datefield.innerHTML = `<em>${fulldate}</em>`;
 const weekDay = new Date().getDay();
 
 function meetBanner() {
-    if (weekDay == '1' || weekDay == '2'){
-        document.getElementById("banner").style.display = "block"
+    if (weekDay === 1 || weekDay === 2){
+        document.querySelector("#banner").style.display = "block"
     } else {
-        document.getElementById("banner").style.display = "none"
+        document.querySelector("#banner").style.display = "none"
     }
 }
+
+//Calling the function!
+(meetBanner)();
 
 //LAZY LOWDING IMAGES
 
@@ -51,7 +54,8 @@ const imgOptions = {
 const loadImages = (image) => {
     image.setAttribute('src', image.getAttribute('data-src'));
     image.onload = () => {
-        image.removeAttribute('data-src');};
+        image.removeAttribute('data-src');
+    };
 };
 
 //first check to see if
@@ -75,3 +79,26 @@ if('IntersectionObserver' in window) {
         loadImages(img);
     });
 }
+
+
+//VISITS COUNT
+
+// initialize display elements
+
+const visitsDisplay = document.querySelector(".visits");
+
+// get the stored value in localStorage
+let numVisits = Number(window.localStorage.getItem("visits-ls"));
+
+// determine if this is the first visit or display the number of visits.
+if (numVisits !== 0) {
+	visitsDisplay.textContent = numVisits;
+} else {
+	visitsDisplay.textContent = `This is your first visit!`;
+}
+
+// increment the number of visits.
+numVisits++;
+// store the new number of visits value
+localStorage.setItem("visits-ls", numVisits);
+//end

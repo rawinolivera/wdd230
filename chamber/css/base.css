@@ -434,10 +434,32 @@ footer h3 {
 }
 
 picture img {
-    transition: filter 1s;
+    transition: filter 1.5s;
     filter: blur(0em);
 }
 
 picture img[data-src] {
     filter: blur(.2em);
+}
+
+#visit-account {
+    background-color: #C7C7C7;
+}
+
+#discover-page p {
+    margin-bottom: .25rem;
+    font-size: 1.2rem;
+}
+
+#discover-page h2 {
+    margin: 0rem 0 .5rem 0;
+}
+
+#discover-page #visit-account div {
+    padding: .25rem;
+}
+
+#visit-account h3 {
+    margin: 0;
+    text-align: center;
 }

@@ -192,7 +192,7 @@
     #discover-page section {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        padding: 1rem 2rem;
+        padding: 1rem 2rem 0;
     }
 
     #discover-page section:nth-of-type(even) picture {

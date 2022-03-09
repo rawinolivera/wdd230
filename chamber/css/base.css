@@ -160,8 +160,6 @@ nav ul.open {
 section {
     padding: .5rem;
     margin: .5rem;
-    background-color: #C7C7C7;
-    height: 8rem;
     font-family: Roboto Condensed;
 }
 
@@ -174,6 +172,7 @@ section article {
     border: 0;
     padding: 0;
     height: 10rem;
+    display: grid;
 }
 
 #hero h2{
@@ -185,11 +184,11 @@ section article {
     margin: .5rem 0 0 1rem;
 }
 
-#hero img { /*
-    height: 10rem;
+#hero picture img { /*
+    height: 10rem; 
     width: 100%; */
-    margin-left: 0;
-    margin-right: 0; 
+    margin-left: auto;
+    margin-right: auto; 
 }
 
 #joinBtn {
@@ -423,4 +422,22 @@ footer h3 {
 
 #bottom-data p:nth-child(2) {
     font-weight: 900;
+}
+
+#discover-page section {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#discover-page section picture img {
+    width: 100%;
+}
+
+picture img {
+    transition: filter 1s;
+    filter: blur(0em);
+}
+
+picture img[data-src] {
+    filter: blur(.2em);
 }

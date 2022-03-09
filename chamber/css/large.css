@@ -59,7 +59,7 @@
         display: block;
     }
 
-    main div {
+    #index.div {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
     }
@@ -72,6 +72,7 @@
         height: 42rem;
         display: grid;
         grid-template-columns: 1fr;
+        background-color: #C7C7C7;
     }
 
     #mix-section article h3 {

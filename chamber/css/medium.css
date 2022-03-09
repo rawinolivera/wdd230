@@ -1,6 +1,6 @@
 @media only screen and (min-width: 35rem){
 
-        main div {
+    #index div {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
@@ -188,5 +188,30 @@
         border-right: 1px solid rgba(0,0,0,3);
         padding: 0 0.3rem;
     }
-    
+
+    #discover-page section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 1rem 2rem;
+    }
+
+    #discover-page section:nth-of-type(even) picture {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+
+    #discover-page section:nth-of-type(even) div {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+
+    #discover-page div {
+        text-align: center;
+        align-self: center;
+        padding: 1rem;
+    }
+
+    #discover-page .disc-tac picture img {
+        width: 100%;
+    }
 }

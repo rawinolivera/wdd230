@@ -192,7 +192,11 @@
     #discover-page section {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        padding: 1rem 2rem 0;
+        padding: 1rem 1rem 0;
+    }
+
+    #discover-page img:hover {
+        box-shadow: white .3rem .1rem 2rem .5rem;
     }
 
     #discover-page section:nth-of-type(even) picture {

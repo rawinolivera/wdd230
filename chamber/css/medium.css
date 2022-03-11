@@ -218,4 +218,8 @@
     #discover-page .disc-tac picture img {
         width: 100%;
     }
+
+    #join-form {
+        padding: 1rem 5rem 1rem 5rem;
+    }
 }

@@ -251,5 +251,9 @@
     #discover-page section {
         padding: 1rem 2.5rem 0;
     }
+    
+    #join-form {
+        padding: 1rem 12rem 1rem 12rem;
+    }
 
 }

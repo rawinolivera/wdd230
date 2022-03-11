@@ -39,11 +39,75 @@
     </nav>
     <h3 id="head-date"></h3>
   </header>
+  <main id="join-page">
+    <section id="cont-form">
+      <h2>Join The Tacna Chamber</h2>
+      <form id="join-form" action="thankyou.html" method="post">
+        <fieldset>
+          <legend>Personal Information:</legend>
+          <label class="top" for="">
+            First name: 
+            <input name="firstName" type="text" required>
+          </label>
+          <label class="top" for="">
+            Last name: 
+            <input name="lastName" type="text" required>
+          </label>
+          <label class="top" for="">
+            Email: 
+            <input name="email" type="email" placeholder="myemail@email.net" required>
+          </label>
+          <label class="top" for="">
+            Cell phone number: 
+            <input name="phoneNumb" type="tel" required>
+          </label>
+        </fieldset>
 
+        <fieldset>
+          <legend>Business Information</legend>
+          <label class="top" for="">
+            Business name:
+            <input name="businessName" type="text" required>
+          </label>
+          <label class="top" for="">
+            Business position: 
+            <input name="businessPosi" type="text">
+          </label>
+          <label class="top" for="">
+            Business description: 
+            <textarea name="businessDesc" id="" cols="30" rows="6"></textarea>
+          </label>
+        </fieldset>
 
+        <fieldset>
+          <legend>Membership level:</legend>
+          <label class="sbs" for="">
+            <input type="radio" name="membership" id="NP">
+            NP Merbership
+          </label>
+          <label class="sbs" for="">
+            <input type="radio" name="membership" id="BZ">
+            Bronze Membership
+          </label>
+          <label class="sbs" for="">
+            <input type="radio" name="membership" id="SL">
+            Silver Merbership
+          </label>
+          <label class="sbs" for="">
+            <input type="radio" name="membership" id="GD">
+            Gold Merbership
+          </label>
+          <label class="top" for="">
+            <input name="dateTime" type="hidden">
+          </label>
+        </fieldset>
+        <label for="">
+          <input class="submitBtn" type="button" value="Join">
+        </label>
+      </form>
+  </section>
 
-
-
+  </main>
     
   <footer>
     <div id="bottom-info">

@@ -464,3 +464,63 @@ picture img[data-src] {
     margin: 0;
     text-align: center;
 }
+
+#join-form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #C7C7C7;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+#join-form legend {
+    color: #000000;
+    font-weight: 700;
+    padding: 0 .5rem;
+}
+
+#join-form label.top {
+    display: block;
+    padding-top: .5rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+#join-form label.top input, textarea {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .5rem;
+    max-width: 19rem;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+#join-form label.sbs {
+    display: block;
+    padding: .25rem 0;
+    font-weight: 600;
+}
+
+#join-form label.sbs {
+    display: block;
+}
+
+#join-form input.submitBtn {
+    border: none;
+    background-color: orange;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+#join-form label.top input:required {
+    border-left: red solid 6px;
+}
+
+#join-form label.top input:required:valid {
+    border-left: green solid 6px;
+}

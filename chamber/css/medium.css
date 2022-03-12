@@ -219,7 +219,28 @@
         width: 100%;
     }
 
+    #join-page {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
     #join-form {
-        padding: 1rem 5rem 1rem 5rem;
+        padding: 1rem 3rem 1rem 3rem;
+    }
+
+    #join-page #member-benefits {
+        margin: 2rem;
+        background-color: #C7C7C7;
+        border-radius: 15px;
+    }
+
+    #join-page #member-benefits h3 {
+        text-align: center;
+    }
+
+    #join-page #member-benefits section {
+        border: #000000 2.5px solid;
+        border-radius: 15px;
+        margin: 1.5rem;
     }
 }

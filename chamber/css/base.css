@@ -465,6 +465,10 @@ picture img[data-src] {
     text-align: center;
 }
 
+#join-page h2 {
+    text-align: center;
+}
+
 #join-form fieldset {
     margin: 2rem 0;
     border: 1px solid #C7C7C7;
@@ -522,5 +526,18 @@ picture img[data-src] {
 }
 
 #join-form label.top input:required:valid {
-    border-left: green solid 6px;
+    border-left: lightgreen solid 6px;
+}
+
+#join-form label.top textarea, #businessPosi {
+    border-left: #FFFFFF solid 6px;
+}
+
+#join-form label.top #businessPosi {
+    border-left: #FFFFFF solid 6px;
+}
+
+#join-page #member-benefits h2, p {
+    margin-bottom: 0;
+    text-align: center;
 }

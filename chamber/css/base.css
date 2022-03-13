@@ -467,6 +467,9 @@ picture img[data-src] {
 
 #join-page h2 {
     text-align: center;
+    font-family: Merienda;
+    margin-bottom: 0;
+    font-size: 1.2rem;
 }
 
 #join-form fieldset {
@@ -512,13 +515,16 @@ picture img[data-src] {
 
 #join-form input.submitBtn {
     border: none;
-    background-color: orange;
-    color: white;
+    background-color: #FF6F15;
+    color: #000000;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
     margin: 0 0 2rem 2%;
     width: 96%;
     max-width: 20rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: roboto Condensed;
 }
 
 #join-form label.top input:required {
@@ -537,7 +543,19 @@ picture img[data-src] {
     border-left: #FFFFFF solid 6px;
 }
 
+#join-page #member-benefits {
+    display: none;
+}
+
 #join-page #member-benefits h2, p {
     margin-bottom: 0;
     text-align: center;
+}
+
+#join-page label.sbs ul {
+    display: none;
+}
+
+#join-page label.sbs input[type="radio"]:checked + ul {
+    display: block;
 }

@@ -559,3 +559,19 @@ picture img[data-src] {
 #join-page label.sbs input[type="radio"]:checked + ul {
     display: block;
 }
+
+#thanks h2 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+#thanks p {
+    margin: 2rem;
+    font-size: 2rem;
+    font-family: roboto condensed;
+}
+
+#thanks {
+    background-color: #C7C7C7;
+    padding: .5rem 0;
+}

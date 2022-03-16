@@ -1,0 +1,100 @@
+{
+    "members": [
+        {
+            "businessName": "GEOCIENCIAS E INGENIERIA E.I.R.L.",
+            "address": "CAL.ARGENTINA NRO. 680 URB. VILLA HERMOSA - TACNA",
+            "phoneNumber": "+51 985271937",
+            "membershipLevel": "NP",
+            "website": "http://www.geocienciaseingenieria.com",
+            "imageurl": "../"
+        },
+        {
+            "businessName": "PODER JUDICIAL",
+            "address": "Esq. Calle Inclan Con Presbitero Andia S/n - Tacna",
+            "phoneNumber": "+51 944236609",
+            "membershipLevel": "GO",
+            "website": "https://www.pjtacna.pe/web/index.php",
+            "imageurl": ""
+        },
+        {
+            "businessName": "PESQUERA MORROSAMA S.A.",
+            "address": "MZA. K LOTE. 25 PARQUE INDUSTRIAL TACNA",
+            "phoneNumber": "+51 944033127",
+            "membershipLevel": "SI",
+            "website": "https://facebook.com/Pesquera-Morrosama-SA-106736604002084/",
+            "imageurl": ""
+        },
+        {
+            "businessName": "MATSURI REPRESENTACIONES S.A.C.",
+            "address": "AV. JORGE BASADRE GROHMANN OESTE NRO. 240 TACNA",
+            "phoneNumber": "+51 999065242",
+            "membershipLevel": "GO",
+            "website": "https://www.matsuri.com.pe",
+            "imageurl": ""
+        },
+        {
+            "businessName": "EMPRESA DE PROTECCION INDUSTRIAL GREM",
+            "address": "MZA. A LOTE. 11 ASC. EDUARDO P.GAMBOA - TACNA",
+            "phoneNumber": "+51 963507302",
+            "membershipLevel": "BR",
+            "website": "https://www.facebook.com/GREMSAC",
+            "imageurl": ""
+        },
+        {
+            "businessName": "G & V PRODUCTOS Y SERVICIOS MULTIPLES E.I.R.L.",
+            "address": "MZA. B LOTE. 18 A.V. EL PLATANAL TACNA",
+            "phoneNumber": "+51 940238888",
+            "membershipLevel": "BR",
+            "website": "https://www.gyvrentacar.pe",
+            "imageurl": ""
+        },
+        {
+            "businessName": "ENVASES DEL SUR",
+            "address": "AV. PANAMERICANA SUR COPARE MZA. P LOTE. 01",
+            "phoneNumber": "+51 936483097",
+            "membershipLevel": "GO",
+            "website": "https://evsperu.com",
+            "imageurl": ""
+        },
+        {
+            "businessName": "VIP EXPRESS PERU",
+            "address": "Las Viñas II Etapa Mz B Lote 01, Tacna",
+            "phoneNumber": "+51 993812685",
+            "membershipLevel": "SI",
+            "website": "https://vipexpressperu.com.pe",
+            "imageurl": ""
+        },
+        {
+            "businessName": "GRUPO DMMS S.A.C.",
+            "address": "AV. JOSE ABELARDO QUIÃ‘ONES NRO. S/N DPTO. 601",
+            "phoneNumber": "+51 996699345",
+            "membershipLevel": "SI",
+            "website": "https://www.facebook.com/GRUPODMMS2022",
+            "imageurl": ""
+        },
+        {
+            "businessName": "AGULOP CORP S.A.C.",
+            "address": "MZA. B LOTE. 23 URB. QUINTA LAS CONDES TACNA",
+            "phoneNumber": "+51 982626513",
+            "membershipLevel": "BR",
+            "website": "https://www.facebook.com/AgulopCorp",
+            "imageurl": ""
+        },
+        {
+            "businessName": "EXTINTORES ANEL",
+            "address": "Av. General Varela #602 Tacna",
+            "phoneNumber": "+51 952917512",
+            "membershipLevel": "NP",
+            "website": "https://www.facebook.com/extintoresanel1",
+            "imageurl": ""
+        },
+        {
+            "businessName": "ANKA ANDINA EIRL",
+            "address": "Av. Ejercito 1678 Tacna",
+            "phoneNumber": "+51 964000234",
+            "membershipLevel": "BR",
+            "website": "https://www.ankarentacar.pe",
+            "imageurl": ""
+        }
+    ]
+}

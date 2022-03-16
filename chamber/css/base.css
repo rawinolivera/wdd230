@@ -585,8 +585,9 @@ picture img[data-src] {
 
 #directory-page .chips section {
     background-color: #C7C7C7;
-    border-radius: 15px;
+    border-radius: 10px;
     padding: 1rem;
+    box-shadow: #000000 .1rem .1rem 0 .1rem;
 }
 
 #directory-page .chips img {
@@ -594,3 +595,32 @@ picture img[data-src] {
     margin-bottom: .7rem;
 }
 
+#directory-page p {
+    font-weight: 700;
+}
+
+#directory-page h2 {
+    text-align: center;
+    font-size: 1.4rem;
+    margin: .5rem;
+}
+
+#directory-page {
+    text-align: center;
+}
+
+#directory-page .view-options {
+    padding: 0;
+    margin: 0;
+}
+
+#directory-page .view-options #gridBtn img:hover {
+    background-color: #C7C7C7;
+    box-shadow: #FFFFFF .1rem .1rem 2rem;
+
+}
+
+#directory-page #listBtn img:hover {
+    background-color: #C7C7C7;
+    box-shadow: #FFFFFF .1rem .1rem 2rem;
+}

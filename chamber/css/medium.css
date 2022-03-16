@@ -263,4 +263,11 @@
     #join-page label.sbs input[type="radio"]:checked + ul {
         display: none;
     }
+
+    #directory-page .chips {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+        margin: .5rem;
+    }
 }

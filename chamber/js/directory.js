@@ -1,9 +1,11 @@
-/* ------ MENU ------ */
+/* ------ LAST MODIFIED ------ */
 var date = new Date();
 var year = date.getFullYear();
 document.querySelector('#current-year').textContent = year;
 document.querySelector('#last-mod').textContent = document.lastModified;
 
+
+/* ------ MENU ------ */
 function toggleMenu() {
     document.getElementById("primaryNav").classList.toggle("open");
     document.getElementById("hamburgerBtn").classList.toggle("open");
@@ -108,8 +110,7 @@ function displayMembers(member) {
     
     image.alt = `Company Logo`;
     website.href = `${member.website}`;
-
-
+    chip.className = `unicard`;    
 
     chip.appendChild(image);
     chip.appendChild(address);
@@ -118,3 +119,15 @@ function displayMembers(member) {
 
     chips.appendChild(chip);
 }
+
+/*---------- VIEW OPTIONS ---------- */
+/* ------ MENU ------ */
+function toggleView() {
+    document.querySelector(".unicard").toggle("open");
+}
+
+const gridBtn = document.getElementById("#gridBtn");
+const listBtn = document.getElementById("#listBtn");
+
+gridBtn.onclick = toggleView;
+listBtn.onclick = toggleView;

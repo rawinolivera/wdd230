@@ -6,7 +6,7 @@
             "phoneNumber": "+51 985271937",
             "membershipLevel": "NP",
             "website": "http://www.geocienciaseingenieria.com",
-            "imageurl": "../images/directory/agulop.jpg"
+            "imageurl": "../images/directory/geociencias.jpg"
         },
         {
             "businessName": "PODER JUDICIAL",
@@ -14,7 +14,7 @@
             "phoneNumber": "+51 944236609",
             "membershipLevel": "GO",
             "website": "https://www.pjtacna.pe/web/index.php",
-            "imageurl": ""
+            "imageurl": "../images/directory/pj.jpg"
         },
         {
             "businessName": "PESQUERA MORROSAMA S.A.",
@@ -22,7 +22,7 @@
             "phoneNumber": "+51 944033127",
             "membershipLevel": "SI",
             "website": "https://facebook.com/Pesquera-Morrosama-SA-106736604002084/",
-            "imageurl": ""
+            "imageurl": "https://rawinolivera.github.io/wdd230/chamber/images/directory/pmsa.jpg"
         },
         {
             "businessName": "MATSURI REPRESENTACIONES S.A.C.",
@@ -30,7 +30,7 @@
             "phoneNumber": "+51 999065242",
             "membershipLevel": "GO",
             "website": "https://www.matsuri.com.pe",
-            "imageurl": ""
+            "imageurl": "https://rawinolivera.github.io/wdd230/chamber/images/directory/matsuri.jpg"
         },
         {
             "businessName": "EMPRESA DE PROTECCION INDUSTRIAL GREM",
@@ -38,7 +38,7 @@
             "phoneNumber": "+51 963507302",
             "membershipLevel": "BR",
             "website": "https://www.facebook.com/GREMSAC",
-            "imageurl": ""
+            "imageurl": "https://rawinolivera.github.io/wdd230/chamber/images/directory/grem.jpg"
         },
         {
             "businessName": "G & V PRODUCTOS Y SERVICIOS MULTIPLES E.I.R.L.",
@@ -46,7 +46,7 @@
             "phoneNumber": "+51 940238888",
             "membershipLevel": "BR",
             "website": "https://www.gyvrentacar.pe",
-            "imageurl": ""
+            "imageurl": "https://rawinolivera.github.io/wdd230/chamber/images/directory/gyv.jpg"
         },
         {
             "businessName": "ENVASES DEL SUR",
@@ -54,7 +54,7 @@
             "phoneNumber": "+51 936483097",
             "membershipLevel": "GO",
             "website": "https://evsperu.com",
-            "imageurl": ""
+            "imageurl": "https://rawinolivera.github.io/wdd230/chamber/images/directory/evs.jpg"
         },
         {
             "businessName": "VIP EXPRESS PERU",
@@ -62,7 +62,7 @@
             "phoneNumber": "+51 993812685",
             "membershipLevel": "SI",
             "website": "https://vipexpressperu.com.pe",
-            "imageurl": ""
+            "imageurl": "https://rawinolivera.github.io/wdd230/chamber/images/directory/vipexpress.jpg"
         },
         {
             "businessName": "GRUPO DMMS S.A.C.",
@@ -70,7 +70,7 @@
             "phoneNumber": "+51 996699345",
             "membershipLevel": "SI",
             "website": "https://www.facebook.com/GRUPODMMS2022",
-            "imageurl": ""
+            "imageurl": "https://rawinolivera.github.io/wdd230/chamber/images/directory/dmms.jpg"
         },
         {
             "businessName": "AGULOP CORP S.A.C.",
@@ -78,7 +78,7 @@
             "phoneNumber": "+51 982626513",
             "membershipLevel": "BR",
             "website": "https://www.facebook.com/AgulopCorp",
-            "imageurl": ""
+            "imageurl": "https://rawinolivera.github.io/wdd230/chamber/images/directory/agulop.jpg"
         },
         {
             "businessName": "EXTINTORES ANEL",
@@ -86,7 +86,7 @@
             "phoneNumber": "+51 952917512",
             "membershipLevel": "NP",
             "website": "https://www.facebook.com/extintoresanel1",
-            "imageurl": ""
+            "imageurl": "https://rawinolivera.github.io/wdd230/chamber/images/directory/anel.jpg"
         },
         {
             "businessName": "ANKA ANDINA EIRL",
@@ -94,7 +94,7 @@
             "phoneNumber": "+51 964000234",
             "membershipLevel": "BR",
             "website": "https://www.ankarentacar.pe",
-            "imageurl": ""
+            "imageurl": "https://rawinolivera.github.io/wdd230/chamber/images/directory/anka.jpg"
         }
     ]
 }

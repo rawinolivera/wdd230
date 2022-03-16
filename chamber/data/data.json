@@ -6,7 +6,7 @@
             "phoneNumber": "+51 985271937",
             "membershipLevel": "NP",
             "website": "http://www.geocienciaseingenieria.com",
-            "imageurl": "../images/directory/geociencias.jpg"
+            "imageurl": "https://rawinolivera.github.io/wdd230/chamber/images/directory/geociencias.jpg"
         },
         {
             "businessName": "PODER JUDICIAL",
@@ -14,7 +14,7 @@
             "phoneNumber": "+51 944236609",
             "membershipLevel": "GO",
             "website": "https://www.pjtacna.pe/web/index.php",
-            "imageurl": "../images/directory/pj.jpg"
+            "imageurl": "https://rawinolivera.github.io/wdd230/chamber/images/directory/pj.jpg"
         },
         {
             "businessName": "PESQUERA MORROSAMA S.A.",

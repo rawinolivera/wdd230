@@ -1,4 +1,4 @@
-/* ------ MENU ------ */ */
+/* ------ MENU ------ */
 var date = new Date();
 var year = date.getFullYear();
 document.querySelector('#current-year').textContent = year;
@@ -81,4 +81,40 @@ if('IntersectionObserver' in window) {
 
 /* ------ JSON DATA ------ */
 
-const requestURL = 'https://rawinolivera.github.io/wdd230/chamber/data/data.json'
+const requestURL = 'https://rawinolivera.github.io/wdd230/chamber/data/data.json';
+const chips = document.querySelector('.chips');
+
+fetch(requestURL)
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (jsonObject) {
+        console.table(jsonObject);
+        const members = jsonObject['members'];
+        members.forEach(displayMembers);
+    });
+
+function displayMembers(member) {
+    let chip = document.createElement('section');
+    let image = document.createElement('img');
+    let address = document.createElement('p');
+    let phoneNumber = document.createElement('p');
+    let website = document.createElement('a');
+
+    image.src = member.imageurl;
+    address.textContent = `${member.address}`;
+    phoneNumber.textContent = `${member.phoneNumber}`;
+    website.textContent = `${member.website}`;
+    
+    image.alt = `Company Logo`;
+    website.href = `${member.website}`;
+
+
+
+    chip.appendChild(image);
+    chip.appendChild(address);
+    chip.appendChild(phoneNumber);
+    chip.appendChild(website);
+
+    chips.appendChild(chip);
+}

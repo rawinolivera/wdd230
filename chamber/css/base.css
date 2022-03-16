@@ -575,3 +575,22 @@ picture img[data-src] {
     background-color: #C7C7C7;
     padding: .5rem 0;
 }
+
+#directory-page .chips {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin: .5rem;
+}
+
+#directory-page .chips section {
+    background-color: #C7C7C7;
+    border-radius: 15px;
+    padding: 1rem;
+}
+
+#directory-page .chips img {
+    width: 9rem;
+    margin-bottom: .7rem;
+}
+

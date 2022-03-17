@@ -433,12 +433,12 @@ footer h3 {
     width: 100%;
 }
 
-picture img {
+#discover-page picture img {
     transition: filter 1.5s;
     filter: blur(0em);
 }
 
-picture img[data-src] {
+#discover-page picture img[data-src] {
     filter: blur(.2em);
 }
 
@@ -708,4 +708,29 @@ picture img[data-src] {
     border-left: lightgreen solid 6px;
 }
 
-/* CONTINUE WORKING*/
+#contact-page {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: .1rem 2rem;
+}
+
+#contact-page #contactYou {
+    padding-top: 1rem;
+}
+
+#contact-page h2 {
+    font-family: merienda;
+    text-align: center;
+}
+
+#contact-page #contactUs {
+    margin: 1.5rem;
+    background-color: #C7C7C7;
+    box-shadow: #000000 .1rem .1rem 1rem;
+}
+
+#contact-page #contactUs img {
+    width: 100%;
+    padding: 1.5rem;
+    display: none;
+}

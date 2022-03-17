@@ -265,9 +265,36 @@
     }
 
     #directory-page .chips {
-        display: grid;
         grid-template-columns: 1fr 1fr;
-        text-align: center;
-        margin: .5rem;
     }
+
+    #directory-page .chips.change section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        margin: 0 .5rem;
+        border-radius: 0;
+        box-shadow: 0 0 0 0;
+    }
+
+    #directory-page #gridBtn.change img {
+        background-color: transparent;
+    }
+
+    #directory-page #listBtn.change img {
+        background-color: #C7C7C7;
+    }
+
+    #directory-page .chips.change section img {
+        display: none;
+    }
+
+    #directory-page .chips.change section .bName {
+        display: block;
+    }
+
+    #directory-page .chips.change section:nth-of-type(even) {
+        background-color: #FFFFFF;
+    }
+
 }

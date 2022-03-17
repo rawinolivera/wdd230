@@ -590,6 +590,10 @@ picture img[data-src] {
     box-shadow: #000000 .1rem .1rem 0 .1rem;
 }
 
+#directory-page .chips .bName {
+    display: none;
+}
+
 #directory-page .chips img {
     width: 9rem;
     margin-bottom: .7rem;
@@ -614,13 +618,38 @@ picture img[data-src] {
     margin: 0;
 }
 
-#directory-page .view-options #gridBtn img:hover {
+#directory-page #gridBtn img {
     background-color: #C7C7C7;
-    box-shadow: #FFFFFF .1rem .1rem 2rem;
-
 }
 
-#directory-page #listBtn img:hover {
+#directory-page #gridBtn.change img {
+    background-color: transparent;
+}
+
+#directory-page #listBtn.change img {
     background-color: #C7C7C7;
-    box-shadow: #FFFFFF .1rem .1rem 2rem;
+}
+
+#directory-page .chips.change img {
+    display: none;
+}
+
+#directory-page .chips.change .bName {
+    display: block;
+}
+
+#directory-page .chips.change {
+    display: block;
+}
+
+#directory-page .chips.change section {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin: 0 .5rem 0 .5rem;
+    border-radius: 0;
+    box-shadow: 0 0 0 0;
+}
+
+#directory-page .chips.change section:nth-of-type(even) {
+    background-color: #FFFFFF;
 }

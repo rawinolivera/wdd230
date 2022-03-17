@@ -98,11 +98,13 @@ fetch(requestURL)
 
 function displayMembers(member) {
     let chip = document.createElement('section');
+    let businessNm = document.createElement('p');
     let image = document.createElement('img');
     let address = document.createElement('p');
     let phoneNumber = document.createElement('p');
     let website = document.createElement('a');
 
+    businessNm.textContent = `${member.businessName}`;
     image.src = member.imageurl;
     address.textContent = `${member.address}`;
     phoneNumber.textContent = `${member.phoneNumber}`;
@@ -110,8 +112,10 @@ function displayMembers(member) {
     
     image.alt = `Company Logo`;
     website.href = `${member.website}`;
-    chip.className = `unicard`;    
+    chip.className = `unicard`;
+    businessNm.className = `bName`; 
 
+    chip.appendChild(businessNm);
     chip.appendChild(image);
     chip.appendChild(address);
     chip.appendChild(phoneNumber);
@@ -122,12 +126,42 @@ function displayMembers(member) {
 
 /*---------- VIEW OPTIONS ---------- */
 /* ------ MENU ------ */
-function toggleView() {
-    document.querySelector(".unicard").toggle("open");
+let act = 0;
+let ancho = innerWidth;
+
+    if(innerWidth > 560 && innerWidth < 1024){
+            document.querySelector(".chips").classList.toggle("change");
+            document.querySelector("#listBtn").classList.toggle("change");
+            document.querySelector("#gridBtn").classList.toggle("change");
+            act = 1;
+    }
+
+
+
+function toggleGrid() {
+    if(act === 0){
+
+    }else{
+        document.querySelector(".chips").classList.toggle("change");
+        document.querySelector("#gridBtn").classList.toggle("change");
+        document.querySelector("#listBtn").classList.toggle("change");
+        act = 0;
+    }
 }
 
-const gridBtn = document.getElementById("#gridBtn");
-const listBtn = document.getElementById("#listBtn");
+function toggleList() {
+    if(act === 1){
 
-gridBtn.onclick = toggleView;
-listBtn.onclick = toggleView;
+    }else{
+        document.querySelector(".chips").classList.toggle("change");
+        document.querySelector("#listBtn").classList.toggle("change");
+        document.querySelector("#gridBtn").classList.toggle("change");
+        act = 1;
+    }
+}
+
+const gridBtn = document.getElementById("gridBtn");
+const listBtn = document.getElementById("listBtn");
+
+gridBtn.onclick = toggleGrid;
+listBtn.onclick = toggleList;

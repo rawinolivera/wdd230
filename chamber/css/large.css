@@ -255,4 +255,12 @@
     #directory-page .chips {
         grid-template-columns: 1fr 1fr 1fr;
     }
+
+    #join-page {
+        margin: 2rem 5rem;
+    }
+
+    #contact-page {
+        margin: 2rem 5rem;
+    }
 }

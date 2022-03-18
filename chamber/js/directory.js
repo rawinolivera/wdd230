@@ -125,7 +125,6 @@ function displayMembers(member) {
 }
 
 /*---------- VIEW OPTIONS ---------- */
-/* ------ MENU ------ */
 let act = 0;
 let ancho = innerWidth;
 
@@ -135,8 +134,6 @@ let ancho = innerWidth;
             document.querySelector("#gridBtn").classList.toggle("change");
             act = 1;
     }
-
-
 
 function toggleGrid() {
     if(act === 0){

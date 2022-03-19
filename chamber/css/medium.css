@@ -189,6 +189,10 @@
         padding: 0 0.3rem;
     }
 
+    #discover-page {
+        margin: 0rem 2rem;
+    }
+
     #discover-page section {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -219,7 +223,7 @@
         width: 100%;
     }
 
-    #join-page {
+    #join-page #join-sections {
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin: 1.5rem 2rem 1rem .5rem;
@@ -227,6 +231,10 @@
 
     #join-page h2 {
         font-size: 1.5rem;
+    }
+
+    #contact-page section {
+        font-family: Roboto Condensed;
     }
 
     #join-page #cont-form {
@@ -245,10 +253,6 @@
         margin: 1rem;
         background-color: #C7C7C7;
         border-radius: 10px;
-    }
-
-    #join-page #member-benefits h3 {
-        text-align: center;
     }
 
     #join-page #member-benefits section {
@@ -309,7 +313,7 @@
     }
 
     #contact-page #contactUs iframe {
-        height: 17rem;
+        height: 15rem;
     }
 
     #contact-page #contact-data {

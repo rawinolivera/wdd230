@@ -17,7 +17,7 @@
     Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
   </div>
   <header>
-    <img id="head-logo" src="images/arcoLogo.jpg" alt="Chamber Logo" />
+    <a href="index.html"><img id="head-logo" src="images/arcoLogo.jpg" alt="Chamber Logo" /></a>
     <div id="head-title">
       <h1>Tacna</h1>
       <p>Chamber of Commerce</p>
@@ -40,75 +40,131 @@
     <h3 id="head-date"></h3>
   </header>
   <main id="join-page">
-
-
+    <h2>Become a Member</h2>
+    <div id="join-sections">
     <!-- APPLICATION FORM -->
-    <section id="cont-form">
-      <h2>Chamber Application Form</h2>
-      <form id="join-form" action="thankyou.html" method="get">
-        <fieldset>
-          <legend>Personal Information:</legend>
-          <label class="top" for="">
-            First name: 
-            <input name="firstName" type="text" required>
-          </label>
-          <label class="top" for="">
-            Last name: 
-            <input name="lastName" type="text" required>
-          </label>
-          <label class="top" for="">
-            Email Address: 
-            <input name="email" type="email" placeholder="myemail@email.net" required>
-          </label>
-          <label class="top" for="">
-            Cell phone number: 
-            <input name="phoneNumb" type="tel" required>
-          </label>
-        </fieldset>
+      <section id="cont-form">
+          <h3 class="subheading">Chamber Application Form</h3>
+          <form id="join-form" action="thankyou.html" method="get">
+            <fieldset>
+              <legend>Personal Information:</legend>
+              <label class="top" for="firstName">
+                First name: 
+                <input name="firstName" type="text" required>
+              </label>
+              <label class="top" for="lastName">
+                Last name: 
+                <input name="lastName" type="text" required>
+              </label>
+              <label class="top" for="email">
+                Email Address: 
+                <input name="email" type="email" placeholder="myemail@email.net" required>
+              </label>
+              <label class="top" for="phoneNumb">
+                Cell phone number: 
+                <input name="phoneNumb" type="tel" required>
+              </label>
+            </fieldset>
 
-        <fieldset>
-          <legend>Business Information</legend>
-          <label class="top" for="">
-            Business name:
-            <input name="businessName" type="text" required>
-          </label>
-          <label class="top" for="">
-            Business position: 
-            <input id="businessPosi" name="businessPosi" type="text" pattern="[A-Za-z/s-]+" minlength="7">
-          </label>
-          <label class="top" for="">
-            Business description: 
-            <textarea name="businessDesc" id="" cols="30" rows="6"></textarea>
-          </label>
-        </fieldset>
+            <fieldset>
+              <legend>Business Information</legend>
+              <label class="top" for="businessName">
+                Business name:
+                <input name="businessName" type="text" required>
+              </label>
+              <label class="top" for="businessPosi">
+                Business position: 
+                <input id="businessPosi" name="businessPosi" type="text" pattern="[A-Za-z/s-]+" minlength="7">
+              </label>
+              <label class="top" for="businessDesc">
+                Business description: 
+                <textarea name="businessDesc" id="" cols="30" rows="6"></textarea>
+              </label>
+            </fieldset>
 
-        <fieldset>
-          <legend>Membership level:</legend>
-          <label class="sbs" for="">
-            <input type="radio" name="membership" id="NP">
-            NP Merbership
-            <ul class="listBenefits">
+            <fieldset>
+              <legend>Membership level:</legend>
+              <label class="sbs" for="membership">
+                <input type="radio" name="membership" id="NP">
+                NP Merbership
+                <ul class="listBenefits">
+                  <li>Be part of the chamber of commerce.</li>
+                  <li>Receive emails with event information.</li>
+                  <li>Free training access - once every month. </li>
+                </ul>
+              </label>
+
+              <label class="sbs" for="membership">
+                <input type="radio" name="membership" id="BZ">
+                Bronze Membership
+                <ul class="listBenefits">
+                  <li>Be part of the chamber of commerce.</li>
+                  <li>Receive emails with event information.</li>
+                  <li>Access to weekly trainnings.</li>
+                  <li>10% off to monthly events.</li>
+                  <li>One Online Advisory per month.</li>
+                </ul>
+              </label>
+              <label class="sbs" for="membership">
+                <input type="radio" name="membership" id="SL">
+                Silver Merbership
+                <ul class="listBenefits">
+                  <li>Be part of the chamber of commerce.</li>
+                  <li>Receive emails with event information.</li>
+                  <li>Access to weekly trainnings.</li>
+                  <li>25% off to monthly events.</li>
+                  <li>Online Advisory when needed.</li>
+                  <li>One visit per month | personal advisory.</li>
+                </ul>
+              
+              <label class="sbs" for="membership">
+                <input type="radio" name="membership" id="GD">
+                Gold Merbership
+                <ul class="listBenefits">
+                  <li>Be part of the chamber of commerce.</li>
+                  <li>Receive emails with event information.</li>
+                  <li>Access to weekly trainnings.</li>
+                  <li>45% off to monthly events.</li>
+                  <li>Online or Personal  Advisory |when needed.</li>
+                  <li>Advertise on our website home page.</li>
+                </ul>
+              </label>
+              <label class="top" for="">
+                <input name="dateTime" type="hidden">
+              </label>
+            </fieldset>
+            <label for="">
+              <input class="submitBtn" type="submit" value="Join The Chamber">
+            </label>
+          </form>
+      </section>
+
+      <!-- MEMBERSHIP INFORMATION -->
+      <side id="member-benefits">
+        <div>
+          <h3 class="subheading">Membership Levels Plan</h3>
+          <p>Monthly Pricing</p>
+          <section id="secNP">
+            <h3>Non-Profit | free</h3>
+            <ul>
               <li>Be part of the chamber of commerce.</li>
               <li>Receive emails with event information.</li>
               <li>Free training access - once every month. </li>
             </ul>
-          </label>
-
-          <label class="sbs" for="">
-            <input type="radio" name="membership" id="BZ">
-            Bronze Membership
-            <ul class="listBenefits">
+          </section>
+          <section id="secBR">
+            <h3>Bronze | S/. 100.00</h3>
+            <ul>
               <li>Be part of the chamber of commerce.</li>
               <li>Receive emails with event information.</li>
               <li>Access to weekly trainnings.</li>
               <li>10% off to monthly events.</li>
               <li>One Online Advisory per month.</li>
             </ul>
-          </label>
-          <label class="sbs" for="">
-            <input type="radio" name="membership" id="SL">
-            Silver Merbership
-            <ul class="listBenefits">
+          </section>
+          <section id="secSI">
+            <h3>Silver | S/. 220.00</h3>
+            <ul>
               <li>Be part of the chamber of commerce.</li>
               <li>Receive emails with event information.</li>
               <li>Access to weekly trainnings.</li>
@@ -116,11 +172,10 @@
               <li>Online Advisory when needed.</li>
               <li>One visit per month | personal advisory.</li>
             </ul>
-          </label>
-          <label class="sbs" for="">
-            <input type="radio" name="membership" id="GD">
-            Gold Merbership
-            <ul class="listBenefits">
+          </section>
+          <section id="secGO">
+            <h3>Gold | S/. 350.00</h3>
+            <ul>
               <li>Be part of the chamber of commerce.</li>
               <li>Receive emails with event information.</li>
               <li>Access to weekly trainnings.</li>
@@ -128,65 +183,10 @@
               <li>Online or Personal  Advisory |when needed.</li>
               <li>Advertise on our website home page.</li>
             </ul>
-          </label>
-          <label class="top" for="">
-            <input name="dateTime" type="hidden">
-          </label>
-        </fieldset>
-        <label for="">
-          <input class="submitBtn" type="submit" value="Join The Chamber">
-        </label>
-      </form>
-  </section>
-
-  <!-- MEMBERSHIP INFORMATION -->
-  <side id="member-benefits">
-    <div>
-      <h2>Membership Levels Plan</h2>
-      <p>Monthly Pricing</p>
-      <section id="secNP">
-        <h3>Non-Profit | free</h3>
-        <ul>
-          <li>Be part of the chamber of commerce.</li>
-          <li>Receive emails with event information.</li>
-          <li>Free training access - once every month. </li>
-        </ul>
-      </section>
-      <section id="secBR">
-        <h3>Bronze | S/. 100.00</h3>
-        <ul>
-          <li>Be part of the chamber of commerce.</li>
-          <li>Receive emails with event information.</li>
-          <li>Access to weekly trainnings.</li>
-          <li>10% off to monthly events.</li>
-          <li>One Online Advisory per month.</li>
-        </ul>
-      </section>
-      <section id="secSI">
-        <h3>Silver | S/. 220.00</h3>
-        <ul>
-          <li>Be part of the chamber of commerce.</li>
-          <li>Receive emails with event information.</li>
-          <li>Access to weekly trainnings.</li>
-          <li>25% off to monthly events.</li>
-          <li>Online Advisory when needed.</li>
-          <li>One visit per month | personal advisory.</li>
-        </ul>
-      </section>
-      <section id="secGO">
-        <h3>Gold | S/. 350.00</h3>
-        <ul>
-          <li>Be part of the chamber of commerce.</li>
-          <li>Receive emails with event information.</li>
-          <li>Access to weekly trainnings.</li>
-          <li>45% off to monthly events.</li>
-          <li>Online or Personal  Advisory |when needed.</li>
-          <li>Advertise on our website home page.</li>
-        </ul>
-      </section>
+          </section>
+        </div>
+      </side>
     </div>
-  </side>
-
   </main>
     
   <footer>
@@ -195,7 +195,7 @@
         <img id="foot-logo" src="images/arcoLogo.jpg" alt="Tacna Chamber Logo" />
       </div>
       <div>
-        <h2>Tacna Chamber of Commerce</h2>
+        <h3>Tacna Chamber of Commerce</h3>
         <p>253 Billinghurst , Tacna 23003</p>
       </div>
       <div>

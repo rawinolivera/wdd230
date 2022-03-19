@@ -157,13 +157,13 @@ nav ul.open {
     display: block;
 }
 
-section {
+#index section {
     padding: .5rem;
     margin: .5rem;
     font-family: Roboto Condensed;
 }
 
-section article {
+#index section article {
     height: 8rem;
 }
 
@@ -424,6 +424,11 @@ footer h3 {
     font-weight: 900;
 }
 
+#discover-page h2 {
+    text-align: center;
+
+}
+
 #discover-page section {
     display: grid;
     grid-template-columns: 1fr;
@@ -451,8 +456,13 @@ footer h3 {
     font-size: 1.2rem;
 }
 
-#discover-page h2 {
+#discover-page h3 {
+    font-size: 1.5rem;
     margin: 0rem 0 .5rem 0;
+}
+
+#discover-page #visit-account {
+    background-color: transparent;
 }
 
 #discover-page #visit-account div {
@@ -469,11 +479,22 @@ footer h3 {
     text-align: center;
     font-family: Merienda;
     margin-bottom: 0;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+}
+
+#join-page .subheading {
+    font-family: Merienda;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#join-page section {
+    margin: .5rem;
+    font-family: Roboto Condensed;
 }
 
 #join-form fieldset {
-    margin: 2rem 0;
+    margin: 1rem 0 2rem 0;
     border: 1px solid #C7C7C7;
     border-radius: 10px;
     padding: .5rem 2%;
@@ -558,6 +579,10 @@ footer h3 {
 
 #join-page label.sbs input[type="radio"]:checked + ul {
     display: block;
+}
+
+#join-page #member-benefits section {
+    padding: .5rem;
 }
 
 #thanks h2 {

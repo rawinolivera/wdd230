@@ -498,7 +498,7 @@ footer h3 {
 }
 
 #join-form fieldset {
-    margin: 1rem 0 2rem 0;
+    margin: 1rem 0;
     border: 1px solid #C7C7C7;
     border-radius: 10px;
     padding: .5rem 2%;
@@ -544,7 +544,7 @@ footer h3 {
     color: #000000;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
-    margin: 0 0 2rem 2%;
+    margin: 1rem 0 2rem 2%;
     width: 96%;
     max-width: 20rem;
     font-size: 1.1rem;
@@ -573,8 +573,9 @@ footer h3 {
 }
 
 #join-page #member-benefits h2, p {
-    margin-bottom: 0;
-    text-align: center;
+    margin: 1.5rem 0 0 1.5rem;
+    font-weight: bold;
+    text-align: left;
 }
 
 #join-page label.sbs ul {
@@ -586,7 +587,7 @@ footer h3 {
 }
 
 #join-page #member-benefits section {
-    padding: .5rem;
+    padding:  0 .5rem;
 }
 
 #thanks h2 {
@@ -699,10 +700,11 @@ footer h3 {
 
 
 #contact-page #contact-form fieldset {
-    margin: 2rem 0;
+    margin: 1rem 0;
     border: 1px solid #C7C7C7;
     border-radius: 10px;
     padding: .5rem 2%;
+    font-family: roboto condensed;
 }
 
 #contact-page #contact-form legend {
@@ -761,21 +763,28 @@ footer h3 {
     margin: 0rem;
 }
 
-#contact-page #contactYou {
-    padding-top: 1rem;
-    margin: 1rem;
-}
-
 #contact-page h2 {
     font-family: merienda;
     text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+#contact-page h3 {
+    font-family: merienda;
+}
+
+#contact-page #contactYou {
+    padding-top: 0;
+    margin: 0 .5rem;
 }
 
 #contact-page #contactUs {
-    margin: 1rem;
+    margin: 0 1rem;
     background-color: #C7C7C7;
     box-shadow: #000000 .1rem .1rem 1rem;
     border-radius: 10px;
+    padding: .5rem;
 }
 
 #contact-page #contactUs img {
@@ -792,7 +801,7 @@ footer h3 {
 
 }
 
-#contact-page #contactUs h3 {
+#contact-page #contact-data h3 {
     margin-left: 1rem;
     font: 1.5rem;
     margin-bottom: .1rem;
@@ -806,4 +815,8 @@ footer h3 {
     font-size: 1.2rem;
     margin-bottom: .5rem;
     font-family: roboto condensed;
+}
+
+#contact-page h3 {
+    margin-bottom: 1rem;
 }

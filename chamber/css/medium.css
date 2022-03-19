@@ -302,7 +302,7 @@
         background-color: #FFFFFF;
     }
 
-    #contact-page {
+    #contact-page #contact-sections {
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin: 2rem;
@@ -319,6 +319,6 @@
     #contact-page #contact-data {
         border: #000000 2.5px solid;
         border-radius: 15px;
-        margin: 0rem;
+        margin: 0;
     }
 }

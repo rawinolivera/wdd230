@@ -248,6 +248,10 @@
         padding: 0 0.3rem;
     }
 
+    #discover-page {
+        margin: 0rem 5rem;
+    }
+
     #discover-page section {
         padding: 1rem 2.5rem 0;
     }

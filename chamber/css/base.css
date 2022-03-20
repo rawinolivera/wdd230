@@ -572,7 +572,7 @@ footer h3 {
     display: none;
 }
 
-#join-page #member-benefits h2, p {
+#join-page #member-benefits h2 {
     margin: 1.5rem 0 0 1.5rem;
     font-weight: bold;
     text-align: left;

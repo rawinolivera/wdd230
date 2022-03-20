@@ -13,29 +13,29 @@
         width: 40px;
     }
 
-    #hero {
+    #index #hero {
         grid-column: 1 / 4;
         height: 16rem;
     }
 
-    #hero div {
+    #index #hero div {
         display: grid;
         grid-template-columns: repeat(6, 1fr);
         grid-template-rows: repeat(3, 5rem);
     }
 
-    #hero h2 {
+    #index #hero h2 {
         font-size: 1.5rem;
     }
 
-    #hero div img { 
+    #index #hero div img { 
         grid-column: 1 / 7; /*
         width: 100%     
         height: 16rem;  
         ; */
     }
 
-    #hero div #joinBtn {
+    #index #hero div #joinBtn {
         display: none;
         padding: .2rem .5rem .2rem .5rem;
         line-height: 0;
@@ -47,12 +47,12 @@
         margin: .5rem 1.25rem .4rem .5rem;
     }
 
-    #news {
+    #index #news {
         grid-column: 1 / 4;
         grid-row: 2 / 3;
     }
 
-    #mix-section {
+    #index #mix-section {
         grid-column: 1 / 4;
         grid-row: 3 / 4;
         display: grid;
@@ -61,47 +61,47 @@
         padding: .5rem;
     }
 
-    #mix-section article {
+    #index #mix-section article {
         height: 14rem;
     }
 
-    #spotlight1 div{
+    #index #spotlight1 div{
         display: grid;
         grid-template-columns: 1fr;
         text-align: center;
         border-right: #C7C7C7 1.8px solid;
     }
 
-        #spotlight1 img {
-            width: 12.5rem;
-            margin-left: auto;
-            margin-right: auto;
-        }
+    #index #spotlight1 img {
+        width: 12.5rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-    #spotlight1 h3 {
+    #index #spotlight1 h3 {
         margin-bottom: .5rem;
         margin-top: .5rem;
     }
 
-    #spotlight2 div{
+    #index #spotlight2 div{
         display: grid;
         grid-template-columns: 1fr;
         text-align: center;
     }
 
-    #spotlight2 h3 {
+    #index #spotlight2 h3 {
         margin-bottom: .9rem;
         margin-top: .5rem;
     }
 
-    #spotlight2 img {
+    #index #spotlight2 img {
         margin-bottom: .5rem;
         width: 15rem;
         margin-left: auto;
         margin-right: auto;
     }
 
-    #join {
+    #index #join {
         display: block;
         grid-column: 1 / 4;
         grid-row: 4 / 5;
@@ -110,12 +110,12 @@
         background: linear-gradient(180deg,#FFFFFF 95%, #FF6F15);
     }
 
-    #join div {
+    #index #join div {
         grid-template-columns: 1fr;
         text-align: center;
     }
 
-    #join div button h3 {
+    #index #join div button h3 {
         margin: 0;
         padding: 1.5rem;
         line-height: 0;
@@ -125,19 +125,19 @@
         font-weight: 700;
     }
 
-    #join div p {
+    #index #join div p {
         padding: 1rem;
         font-weight: 700;
         font-size: 1.2rem;
     }
 
-    #event {
+    #index #event {
         grid-column: 1 / 3;
         display: grid;
         height: 15rem;
     }
 
-    #event div {
+    #index #event div {
         grid-template-columns: 1fr;
         grid-template-rows: 5rem;
         text-align: center;
@@ -145,12 +145,12 @@
         padding: .7rem 1.5rem 0 1.5rem;
     }
 
-    #event div h3 {
+    #index #event div h3 {
         line-break: 0;
         margin-bottom: 0;
     }
 
-    #weather {
+    #index #weather {
         margin: .5rem;
     }
 

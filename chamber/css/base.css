@@ -163,7 +163,6 @@ nav ul.open {
 }
 
 #index section {
-    padding: .5rem;
     margin: .5rem;
     font-family: Roboto Condensed;
 }
@@ -172,7 +171,7 @@ nav ul.open {
     height: 8rem;
 }
 
-#hero {
+#index #hero {
     background-color: transparent;
     border: 0;
     padding: 0;
@@ -180,7 +179,7 @@ nav ul.open {
     display: grid;
 }
 
-#hero h2{
+#index #hero h2{
     font-family: merienda;
     font-size: 1.5rem;
     color: #000000;
@@ -189,23 +188,22 @@ nav ul.open {
     margin: .5rem 0 0 1rem;
 }
 
-#hero picture img { /*
-    height: 10rem; 
-    width: 100%; */
+#index #hero img {
+    width: 100%;
     margin-left: auto;
     margin-right: auto; 
 }
 
-#joinBtn {
+#index #joinBtn {
     display: none;
 }
 
-#event {
+#index #event {
     background: linear-gradient(180deg,#FFFFFF 95%, #FF6F15);
     text-align: center;
 }
 
-#event h3 {
+#index #event h3 {
     font-family: merienda;
     margin-top: .2rem;
     font-size: 1.5rem;
@@ -214,12 +212,12 @@ nav ul.open {
     text-shadow: #319CC6 .1rem .2rem 2rem;
 }
 
-#event p {
+#index #event p {
     font-size: 1.2rem;
     font-weight: 600;
 }
 
-#weather {
+#index #weather {
     background-color: #FFFFFF;
     color: #319CC6;
     margin: 0 3rem 0 3rem;
@@ -227,13 +225,13 @@ nav ul.open {
     background: linear-gradient(180deg,#FFFFFF 95%, #FF6F15);
 }
 
-#weather div{
+#index #weather div{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 3.75rem 3.75rem 3.75rem 3.75rem;
 }
 
-#weather #weather-title {
+#index #weather #weather-title {
     text-shadow: #319CC6 0.1rem .2rem 2rem;
     grid-column: 1 / 4;
     grid-row: 1 / 2;
@@ -244,7 +242,7 @@ nav ul.open {
     font-family: merienda;
 }
 
-#weather div img {
+#index #weather div img {
     width: 7rem;
     grid-row: 2 / 4;
     grid-column: 1 / 3;
@@ -252,7 +250,7 @@ nav ul.open {
     margin-top: 0;
 }
 
-#weather #w-now {
+#index #weather #w-now {
     grid-row: 3 / 4;
     grid-column: 3 / 4;
     font-size: 1.5rem;
@@ -262,7 +260,7 @@ nav ul.open {
     color: #000000;
 }
 
-#weather h2 {
+#index #weather h2 {
     grid-row: 2 / 3;
     grid-column: 3 / 4;
     font-size: 2.7rem;
@@ -272,7 +270,7 @@ nav ul.open {
     font-weight: 900;
 }
 
-#weather #conditions {
+#index #weather #conditions {
     grid-row: 4 / 5;
     grid-column: 1 / 4;
     padding-left: 1rem;
@@ -283,13 +281,13 @@ nav ul.open {
     color: #000000;
 }
 
-#news {
+#index #news {
     background: #FFFFFF;
     padding: 1.2rem;
     background: linear-gradient(180deg,#FFFFFF 95%, #FF6F15);
 }
 
-#news h3 {
+#index #news h3 {
     padding: 0 0.5rem 0.5rem 0;
     text-align: center;
     margin: 0;
@@ -299,28 +297,28 @@ nav ul.open {
     text-shadow: #319CC6 .1rem .2rem 2rem;
 }
 
-#news p {
+#index #news p {
     font-size: 1.1rem;
     font-weight: bold;
 }
 
-#mix-section {
+#index #mix-section {
     height: 38.5rem;
 }
 
-article {
+#index article {
     padding: .5rem;
     height: 7rem;
 }
 
-#spotlight1 {
+#index #spotlight1 {
     background-color: #FFFFFF;
     height: 18rem;
     text-align: center;
     background: linear-gradient(180deg,#FFFFFF 95%, #FF6F15);
 }
 
-#spotlight1 h3 {
+#index #spotlight1 h3 {
     text-align: center;
     font-family: merienda;
     color: #319CC6;
@@ -328,7 +326,7 @@ article {
     font-size: 1.5rem;
 }
 
-#spotlight1 .act {
+#index #spotlight1 .act {
     font-weight: 700;
     font-size: 1.2rem;
     border-bottom: 1px solid #000000;
@@ -336,31 +334,31 @@ article {
     margin: 0 1rem 0 1rem;
 }
 
-#spotlight1 p {
+#index #spotlight1 p {
     font-weight: 700;
     font-size: 1.1rem;
     padding-top: .3rem;
 }
 
-#spotlight2 {
+#index #spotlight2 {
     background-color: #FFFFFF;
     height: 18rem;
     text-align: center;
     background: linear-gradient(180deg,#FFFFFF 95%, #FF6F15);
 }
 
-#spotlight2 h3 {
+#index #spotlight2 h3 {
     font-family: merienda;
     font-size: 1.5rem;
     color: #319CC6;
     text-shadow: #319CC6 .1rem .2rem 2rem;
 }
 
-#spotlight2 img {
+#index #spotlight2 img {
     width: 18rem;
 }
 
-#spotlight2 .act {
+#index #spotlight2 .act {
     font-weight: 700;
     font-size: 1.2rem;
     border-bottom: 1px solid #000000;
@@ -368,17 +366,17 @@ article {
     margin: 0 1rem 0 1rem;
 }
 
-#spotlight2 p {
+#index #spotlight2 p {
     font-weight: 700;
     font-size: 1.1rem;
     padding-top: .3rem;
 }
 
-#mix-section article:nth-child(3) {
+#index #mix-section article:nth-child(3) {
     display: none;
 }
 
-#join {
+#index #join {
     display: none;
 }
 

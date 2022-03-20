@@ -231,7 +231,10 @@
 
     #join-page h2 {
         font-size: 1.5rem;
+        margin-top: 1.5rem;
     }
+
+    #contact-page
 
     #contact-page section {
         font-family: Roboto Condensed;
@@ -253,6 +256,7 @@
         margin: 1rem;
         background-color: #C7C7C7;
         border-radius: 10px;
+        box-shadow: #000000 0.1rem 0.1rem 1rem;
     }
 
     #join-page #member-benefits section {
@@ -313,7 +317,7 @@
     }
 
     #contact-page #contactUs iframe {
-        height: 15rem;
+        height: 12rem;
     }
 
     #contact-page #contact-data {
@@ -321,4 +325,16 @@
         border-radius: 15px;
         margin: 0;
     }
+
+    #join-page #member-benefits #secGO {
+        margin-bottom: 1.1rem;
+    }
+
+    #join-page #member-benefits p {
+        margin-left: 1.5rem;
+        font-size: .9rem;
+        font-weight: 900;
+    }
+
+
 }

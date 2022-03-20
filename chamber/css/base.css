@@ -60,7 +60,12 @@ header nav {
     grid-column: 1 / 5;
 }
 
-header h1, p {
+header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+header p {
     margin: 0;
     padding: 0;
 }
@@ -380,11 +385,12 @@ article {
 #foot-logo {
     width: 90px;
     border-radius: 10px;
+    margin-bottom: .1rem;
 }
 
 footer {
     margin: 0;
-    padding: .5rem;
+    padding:  0 .5rem .5rem .5rem;
     display: grid;
     grid-template-columns: 1fr;
     text-align: center;
@@ -393,6 +399,7 @@ footer {
 
 footer div p {
     color: #000000;
+    margin: 0;
 }
 
 footer h2 {
@@ -400,20 +407,21 @@ footer h2 {
 }
 
 footer #email {
-    padding: .5rem;
+    padding: 0rem;
 }
 
 footer #phone-n {
-    margin: .5rem;
+    margin: 0;
 }
 
 footer #location {
-    margin: .5rem;
+    margin: 0;
 }
 
-hr {
+#bottom-info {
     width: 100%;
-    border: solid 0.5px #000000;
+    border-bottom: solid 0.5px #000000;
+    margin: .5rem 0 .5rem 0;
 }
 
 footer h3 {
@@ -631,6 +639,7 @@ footer h3 {
 
 #directory-page p {
     font-weight: 700;
+    margin: 0;
 }
 
 #directory-page h2 {
@@ -679,7 +688,6 @@ footer h3 {
     grid-template-rows: 1fr 1fr 1fr 1fr;
     margin: 0 .5rem 0 .5rem;
     border-radius: 0;
-    box-shadow: 0 0 0 0;
 }
 
 #directory-page .chips.change section .bName {

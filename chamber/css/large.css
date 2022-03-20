@@ -3,6 +3,7 @@
         display: grid;
         grid-template-columns: repeat(10, 1fr);
         grid-template-rows: 80px;
+        padding: 0 3rem;
     }
 
     #head-title {
@@ -57,6 +58,10 @@
 
     #index #mix-section article:nth-child(3) {
         display: block;
+    }
+
+    #index {
+        margin: 0 5rem auto;
     }
 
     #index.div {
@@ -237,6 +242,10 @@
         display: grid;
         grid-template-columns: 3fr, 2fr;
         justify-content: center;
+    }
+
+    footer {
+        padding: 0 8rem;
     }
 
     #bottom-data {

@@ -3,7 +3,6 @@
         display: grid;
         grid-template-columns: repeat(10, 1fr);
         grid-template-rows: 80px;
-        padding: 0 3rem;
     }
 
     #head-title {
@@ -60,10 +59,6 @@
         display: block;
     }
 
-    #index {
-        margin: 0 5rem auto;
-    }
-
     #index.div {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -74,18 +69,22 @@
         grid-row: 1 / 4;
         padding: .5rem;
         margin: .5rem .5rem .5rem .25rem;
-        height: 42rem;
+        height: 41rem;
         display: grid;
         grid-template-columns: 1fr;
         background-color: #C7C7C7;
+    }
+
+    #index #mix-section article {
+        height: 13rem;
     }
 
     #index #mix-section article h3 {
         margin: .5rem;
     }
 
-    #index section #spotlight1 {
-        height: 14rem;
+    #index section #spotlight1 p {
+        margin-bottom: .5rem;
     }
 
     #index #spotlight1 div {
@@ -106,6 +105,10 @@
         width: 11rem;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    #index #spotlight2 p {
+        margin: 0;
     }
 
     #index #spotlight2 h3 {
@@ -147,6 +150,10 @@
         margin-right: auto;
     }
 
+    #index #spotlight3 p {
+        margin: 0;
+    }
+
     #index #spotlight3 div .act {
         font-weight: 700;
         font-size: 1.2rem;
@@ -161,6 +168,14 @@
         padding-top: .3rem;
     }
 
+    #index #event h3 {
+        font-size: .5rem;
+    }
+
+    #index #mix-section article .act {
+        margin: 0;
+    }
+
     #index #event {
         grid-column: 1 / 2;
         grid-row: 1 / 2;
@@ -170,8 +185,19 @@
     }
 
     #index #event div {
-        height: 11rem;
         grid-template-rows: auto;
+        padding: .5rem;
+    }
+
+    #index #event p {
+        margin-top: .5rem;
+        font-size: 1.2rem;
+    }
+
+    #index #event div h3 {
+        padding-top: 0;
+        margin-top: 0;
+        font-size: 1.5rem;
     }
 
     #index #weather {
@@ -193,12 +219,16 @@
         grid-row: 3 / 4;
         margin: 0 .25rem .25rem .5rem;
         padding: .5rem;
-        height: 13rem;
+        height: 11.5rem;
     }
 
     #index #join div p {
         font-size: 1.2rem;
-        padding: .5rem;
+        padding: .5rem 0;
+    }
+
+    #index #join div button h3 {
+        margin-top: 0;
     }
 
     #index #hero {
@@ -208,21 +238,18 @@
     }
 
     #index #hero div {
-        display: grid;
-        grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: repeat(6, 5rem);
     }
 
     #index #hero div #joinBtn {
         font-size: 1.2rem;
-        grid-row: 5 / 6;
-        grid-column: 4 / 7;
         margin: .5rem 1.25rem .4rem .5rem;
+        margin-top: 24rem;
+        margin-left: 15rem;
     }
 
-    #index #hero div img { /*
+    #index #hero div img {
         height: 28.5rem; 
-        width: 100%; */
+        width: 100%;
         margin: 0 auto;
     }
 
@@ -242,10 +269,6 @@
         display: grid;
         grid-template-columns: 3fr, 2fr;
         justify-content: center;
-    }
-
-    footer {
-        padding: 0 8rem;
     }
 
     #bottom-data {

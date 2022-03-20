@@ -1,8 +1,8 @@
 @media only screen and (min-width: 35rem){
 
-    #index div {
+    #index {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     header #social a {
@@ -15,36 +15,28 @@
 
     #index #hero {
         grid-column: 1 / 4;
-        height: 16rem;
     }
 
-    #index #hero div {
-        display: grid;
-        grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: repeat(3, 5rem);
+    #index #hero picture {
+        height: 100%;
     }
-
+    
     #index #hero h2 {
         font-size: 1.5rem;
     }
-
-    #index #hero div img { 
-        grid-column: 1 / 7; /*
-        width: 100%     
-        height: 16rem;  
-        ; */
-    }
-
-    #index #hero div #joinBtn {
-        display: none;
-        padding: .2rem .5rem .2rem .5rem;
+    #index #hero #joinBtn {
         line-height: 0;
+        padding: .5rem 1rem;
         font-size: 1rem;
         background-color: #FF6F15;
         border-radius: 15px;
-        grid-row: 3 / 4;
-        grid-column: 4 / 7;
-        margin: .5rem 1.25rem .4rem .5rem;
+        margin-top: 15rem;
+        margin-left: 18rem;
+    }
+
+    #index #hero h3 {
+        padding: .8rem 1.2rem;
+        font-size: 2rem;
     }
 
     #index #news {
@@ -78,6 +70,11 @@
         margin-right: auto;
     }
 
+    #index #spotlight1 p {
+        margin-top: .5rem;
+        padding-top: 0;
+    }
+
     #index #spotlight1 h3 {
         margin-bottom: .5rem;
         margin-top: .5rem;
@@ -88,6 +85,9 @@
         grid-template-columns: 1fr;
         text-align: center;
     }
+    #index #spotlight2 p {
+        margin-top: .5rem;
+    }
 
     #index #spotlight2 h3 {
         margin-bottom: .9rem;
@@ -95,6 +95,7 @@
     }
 
     #index #spotlight2 img {
+        margin-top: .3rem;
         margin-bottom: .5rem;
         width: 15rem;
         margin-left: auto;
@@ -115,8 +116,12 @@
         text-align: center;
     }
 
+    #index #join div button {
+        width: 95%;
+    }
+
     #index #join div button h3 {
-        margin: 0;
+        margin: 1.5rem 0 0 0;
         padding: 1.5rem;
         line-height: 0;
         font-size: 1.5rem;
@@ -126,9 +131,10 @@
     }
 
     #index #join div p {
-        padding: 1rem;
+        padding: 1rem 0 0 0;
         font-weight: 700;
         font-size: 1.2rem;
+        margin-top: 0;
     }
 
     #index #event {

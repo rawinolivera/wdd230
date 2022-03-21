@@ -24,19 +24,19 @@
     #index #hero h2 {
         font-size: 1.5rem;
     }
-    #index #hero #joinBtn {
+    #index #hero div #joinBtn {
         line-height: 0;
         padding: .5rem 1rem;
         font-size: 1rem;
-        background-color: #FF6F15;
+        background-color: #FF5700;
         border-radius: 15px;
-        margin-top: 15rem;
-        margin-left: 18rem;
+        top: 18rem;
+        left: 16rem;
     }
 
     #index #hero h3 {
         padding: .8rem 1.2rem;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     #index #news {
@@ -108,7 +108,7 @@
         grid-row: 4 / 5;
         display: grid;
         background-color: #FFFFFF;
-        background: linear-gradient(180deg,#FFFFFF 95%, #FF6F15);
+        background: linear-gradient(180deg,#FFFFFF 95%, #FF5700);
     }
 
     #index #join div {
@@ -125,7 +125,7 @@
         padding: 1.5rem;
         line-height: 0;
         font-size: 1.5rem;
-        background-color: #FF6F15;
+        background-color: #FF5700;
         border-radius: 15px;
         font-weight: 700;
     }
@@ -147,7 +147,6 @@
         grid-template-columns: 1fr;
         grid-template-rows: 5rem;
         text-align: center;
-        height: 15rem;
         padding: .7rem 1.5rem 0 1.5rem;
     }
 

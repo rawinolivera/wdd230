@@ -506,7 +506,8 @@ footer h3 {
 
 #join-page .subheading {
     font-family: Merienda;
-    text-align: center;
+    text-align: left;
+    margin-left: 1.5rem;
     margin-bottom: 0;
 }
 

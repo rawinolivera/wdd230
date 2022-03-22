@@ -40,6 +40,31 @@ function meetBanner() {
 //Calling the function!
 (meetBanner)();
 
+
+/*------  WEATHER API  ------*/
+
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=3928128&appid=0c8a48091627e17ece4ad85f202a2799&units=imperial";
+
+fetch(apiURL)
+  .then((response) => response.json())
+  .then((jsObject) => {
+    console.log(jsObject);
+    document.querySelector('#t').textContent = jsObject.main.temp;  //t
+    document.querySelector('#s').textContent = jsObject.wind.speed;  //s
+
+
+    const desc = jsObject.weather[0].description; //w-now
+    const iconsrc= `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
+    document.querySelector('#weathericon').textContent = iconsrc;
+    document.querySelector('#weathericon').setAttribute('src', iconsrc);
+    document.querySelector('#weathericon').setAttribute('alt', desc);
+    document.querySelector('#w-now-s').textContent = desc;
+  });  
+
+
+
+
+
 let t = parseFloat(document.querySelector("#t").textContent);
 let s = parseFloat(document.querySelector("#s").textContent);
 let windchill = "";

@@ -245,20 +245,21 @@ nav ul.open {
 #index #weather div img {
     width: 7rem;
     grid-row: 2 / 4;
-    grid-column: 1 / 3;
+    grid-column: 1 / 2;
     padding-left: 1rem;
     margin-top: 0;
 }
 
 #index #weather #w-now {
     grid-row: 3 / 4;
-    grid-column: 3 / 4;
+    grid-column: 2 / 4;
     font-size: 1.5rem;
     font-weight: bold;
     padding-top: 0;
     padding-left: 1.8rem;
     padding-right: 1rem;
     color: #000000;
+    text-align: center;
 }
 
 #index #weather h2 {

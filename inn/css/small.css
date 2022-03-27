@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Lobster&family=Roboto+Condensed:ital,wght@1,300&family=Yanone+Kaffeesatz:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=El+Messiri&family=Lobster&family=Roboto+Condensed:ital,wght@1,300&family=Yanone+Kaffeesatz:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=El+Messiri&family=Lobster&family=Roboto+Condensed:ital,wght@1,300&family=Yanone+Kaffeesatz:wght@600&display=swap');
+
+
+header div {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+#logo {
+    width: 55px;
+    grid-column: 1 / 2;
+}
+
+header div #menuBtn {
+    grid-column: 2 / 6;
+    text-align: center;
+    font-size: .5rem;
+}
+
+header div #menuBtn {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 0;
+    margin: 0;
+}
+
+header div #menuBtn h1 {
+    grid-column: 1 / 5;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+header div #menuBtn span {
+    grid-column: 5 / 6;
+    font-size: 2rem;
+    padding: .2rem;
+}
+
+header div #callusBtn {
+    grid-column: 6 / 7;
+    grid-row: 1 / 2;
+    font-size: 2rem;
+}
+
+header div nav {
+    grid-column: 1 / 7;
+}
+
+header div nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+header div .menu ul li {
+    list-style: none;
+    text-align: center;
+    padding: .5rem 0;
+    border-bottom: 1px solid black;
+    font-size: 1.2rem;
+}
+
+header div .menu.open {
+    display: none;
+}
+

@@ -6,3 +6,5 @@ function toggleMenu() {
 
 const menuBtn = document.querySelector("#menuBtn");
 menuBtn.onclick = toggleMenu;
+
+/**/

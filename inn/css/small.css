@@ -14,11 +14,13 @@
 header div {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+    background-color: var(--blue);
 }
 
-#logo {
-    width: 75px;
+a #logo {
+    width: 65px;
     grid-column: 1 / 2;
+    margin: .4rem 0 .4rem .4rem;
 }
 
 header div #menuBtn {
@@ -31,13 +33,13 @@ header div #menuBtn {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     padding: 0;
-    margin: 0;
+    margin: .3rem 0 .3rem .3rem ;
 }
 
 header div #menuBtn h1 {
     grid-column: 1 / 5;
     font-size: 1.2rem;
-    margin: 1rem 0;
+    margin: .5rem 0;
 }
 
 header div #menuBtn span {
@@ -50,6 +52,8 @@ header div #callusBtn {
     grid-column: 6 / 7;
     grid-row: 1 / 2;
     font-size: 2rem;
+    padding: .5rem;
+    margin: .3rem;
 }
 
 header div nav {
@@ -73,5 +77,13 @@ header div .menu.open {
     display: none;
 }
 
-/*menu*/
+footer .footer h2 {
+    margin: 0;
+    text-align: center;
+    font-size: 1.2rem;
+}
 
+footer .footer {
+    background-color: var(--blue);
+    padding: .5rem;
+}

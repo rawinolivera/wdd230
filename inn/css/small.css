@@ -2,6 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=El+Messiri&family=Lobster&family=Roboto+Condensed:ital,wght@1,300&family=Yanone+Kaffeesatz:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=El+Messiri&family=Lobster&family=Roboto+Condensed:ital,wght@1,300&family=Yanone+Kaffeesatz:wght@600&display=swap');
 
+:root {
+    /*colors*/
+    --white: #FFFFFF;
+    --lgreen: #CFFF6F;
+    --blue: #144FFF;
+    --lgray: #E4E4E4;
+    --black: #000000;
+}
 
 header div {
     display: grid;
@@ -9,7 +17,7 @@ header div {
 }
 
 #logo {
-    width: 55px;
+    width: 75px;
     grid-column: 1 / 2;
 }
 
@@ -57,7 +65,7 @@ header div .menu ul li {
     list-style: none;
     text-align: center;
     padding: .5rem 0;
-    border-bottom: 1px solid black;
+    border-bottom: var(--black) 1px solid;
     font-size: 1.2rem;
 }
 

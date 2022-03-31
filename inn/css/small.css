@@ -77,13 +77,34 @@ header div .menu.open {
     display: none;
 }
 
-footer .footer h2 {
+footer {
+    background-color: var(--blue);
+}
+
+footer .location h2 {
+    margin: 0;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+footer .location iframe {
+    padding: 1rem;
+    width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+    height: 12rem;
+}
+
+footer .data-footer {
+    border-top: var(--black) solid 1px;
+}
+
+footer .data-footer h2 {
     margin: 0;
     text-align: center;
     font-size: 1.2rem;
 }
 
-footer .footer {
-    background-color: var(--blue);
+footer .data-footer {
     padding: .5rem;
 }

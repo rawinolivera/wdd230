@@ -11,10 +11,13 @@
     --black: #000000;
 }
 
+header {
+    background-color: var(--blue);
+}
+
 header div {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    background-color: var(--blue);
 }
 
 a #logo {
@@ -24,22 +27,23 @@ a #logo {
 }
 
 header div #menuBtn {
-    grid-column: 2 / 6;
+    grid-column: 6 / 7;
+    grid-row: 1 / 2;
     text-align: center;
     font-size: .5rem;
 }
 
-header div #menuBtn {
+header div {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     padding: 0;
     margin: .3rem 0 .3rem .3rem ;
 }
 
-header div #menuBtn h1 {
-    grid-column: 1 / 5;
+header div h1 {
+    grid-column: 2 / 5;
     font-size: 1.2rem;
-    margin: .5rem 0;
+    margin: .5rem .5rem 0 .5rem;
 }
 
 header div #menuBtn span {
@@ -49,11 +53,15 @@ header div #menuBtn span {
 }
 
 header div #callusBtn {
-    grid-column: 6 / 7;
+    grid-column: 5 / 6;
     grid-row: 1 / 2;
     font-size: 2rem;
-    padding: .5rem;
-    margin: .3rem;
+    background-color: transparent;
+    border: 0;
+}
+
+header div #callusBtn img {
+    height: 60px;
 }
 
 header div nav {
@@ -63,6 +71,7 @@ header div nav {
 header div nav ul {
     margin: 0;
     padding: 0;
+    display: none;
 }
 
 header div .menu ul li {
@@ -73,8 +82,14 @@ header div .menu ul li {
     font-size: 1.2rem;
 }
 
-header div .menu.open {
-    display: none;
+header div .menu.open ul {
+    display: block;
+}
+
+#home .welcome img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
 footer {

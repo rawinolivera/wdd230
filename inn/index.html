@@ -13,10 +13,10 @@
 
 <body>
     <header>
-        <aside>
+        <aside id="phone">
             <p>Phone Number:</p>
-            <p>+1 (201)2521452</p>
-            <p>+1 (201)6954545</p>
+            <p>+1 (201) 2521452</p>
+            <p>+1 (201) 6954545</p>
         </aside>
         <div id="head-container">
             <a href=""><img id="logo" src="../inn/images/logo.png" alt="Logo"></a>
@@ -37,15 +37,41 @@
         </div>
     </header>
     <main id="home">
-        <section>
+        <section id="banner">
+            <a href=""><h2 id="call-act">Book Now!!</h2></a>
             <picture class="welcome">
                 <source media="(min-width: 1024px)" srcset="../inn/images/welcome-1248.jpg">
                 <source media="(min-width: 520px)" srcset="../inn/images/welcome-624.jpg">
                 <source media="(min-width: 0px)" srcset="../inn/images/welcome-312.jpg">
                 <img src="../inn/images/welcome-1248.jpg" alt="welcome banner">
             </picture>
+            
         </section>
-
+        <section id="weather">
+            <div>
+                <article id="mainWea">
+                    <img src="https://picsum.photos/70/70" alt="">
+                    <h2><span id="temp">57</span>&deg;F</h2>
+                    <p>Weather:<span id="condition"> cloudy</span></p>
+                    <p>Humidity:<span id="humidity"> 64%</span></p>
+                </article>
+                <aside id="fDay">
+                    <img src="https://picsum.photos/50/50" alt="">
+                    <h3><span id="t1"> 37</span>&deg;F</h3>
+                    <p><span>day 1</span></p>
+                </aside>
+                <aside id="sDay">
+                    <img src="https://picsum.photos/50/50" alt="">
+                    <h3><span id="t2"> 35</span>&deg;F</h3>
+                    <p><span>day 2</span></p>
+                </aside>
+                <aside id="tDay">
+                    <img src="https://picsum.photos/50/50" alt="">
+                    <h3><span id="t3">38</span>&deg;F</h3>
+                    <p><span>day 3</span></p>
+                </aside>
+            </div>
+        </section>
     </main>
     <footer>
         <div class="location">

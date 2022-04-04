@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Domine&family=El+Messiri&family=Lobster&family=Roboto+Condensed:ital,wght@1,300&family=Yanone+Kaffeesatz:wght@600&display=swap');
 @import url('@import url(https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Domine&family=El+Messiri&family=Lobster&family=Roboto+Condensed:ital,wght@1,300&family=Yanone+Kaffeesatz:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@200&family=Dancing+Script:wght@500&family=Domine&family=El+Messiri&family=Lobster&family=Roboto+Condensed:ital,wght@1,300&family=Yanone+Kaffeesatz:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300&family=Dancing+Script:wght@500&family=Domine&family=El+Messiri&family=Lobster&family=Roboto+Condensed:ital,wght@1,300&family=Yanone+Kaffeesatz:wght@600&display=swap');
 
 :root {
     /*colors*/
@@ -16,8 +16,13 @@ header {
     font-family: Domine;
 }
 
-h2 {
+h2, h3 {
     font-family: El Messiri;
+    margin-bottom: .2rem;
+}
+
+p {
+    font-family: Domine;
 }
 
 header div {
@@ -142,7 +147,7 @@ header #callusBtn.come img {
 
 #home #call-act {
     position: absolute;
-    margin: 15% 5% 0 50%;
+    margin: 15% 5% 0 40%;
     font-size: 2rem;
     background-color: rgba(255, 255, 255, 65%);
     padding: .5rem 1rem;
@@ -157,7 +162,7 @@ header #callusBtn.come img {
 
 #home #mainWea {
     grid-column: 1 / 4;
-    border: var(--black) 1px solid;
+    border: var(--black) 2px solid;
     margin: .5rem .5rem;
     padding: 1rem;
     display: grid;
@@ -172,7 +177,7 @@ header #callusBtn.come img {
 }
 
 #home aside {
-    border: var(--black) solid 1px;
+    border: var(--black) solid 2px;
     margin: .5rem;
     padding: .5rem 0;
     display: grid;
@@ -188,6 +193,32 @@ header #callusBtn.come img {
     width: 40px;
     margin-left: auto;
     margin-right: auto;
+}
+
+#ref-temple {
+    text-align: center;
+}
+
+#ref-temple img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#social {
+    text-align: center;
+}
+
+#social ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+#social li img {
+    width: 45px;
+    border-radius: 15px;
+    margin-left: 1.2rem;
 }
 
 footer {

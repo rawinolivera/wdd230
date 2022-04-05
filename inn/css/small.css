@@ -54,8 +54,8 @@ header div {
 
 header div h1 {
     grid-column: 2 / 5;
-    font-size: 1.5rem;
-    margin: .8rem .5rem 0 .5rem;
+    font-size: 1.4rem;
+    margin: .9rem .5rem 0 .5rem;
     text-align: center;
 }
 
@@ -155,9 +155,14 @@ header #callusBtn.come img {
     color: var(--black);
 }
 
+#home #weather {
+    padding: .5rem 1rem;
+}
+
 #home #weather div {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    background-color: #E4E4E4;
 }
 
 #home #mainWea {
@@ -170,10 +175,24 @@ header #callusBtn.come img {
     text-align: center;
 }
 
+#home #mainWea #weaDate {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    margin: 0;
+}
+
+#home #mainWea #weaTemp {
+    margin-top: .5rem;
+}
+
 #home #mainWea img {
     margin-left: auto;
     margin-right: auto;
-    margin-top: .5rem;
+}
+
+#home #mainWea #condition, #humidity {
+    font-weight: 600;
+    font-size: 1.2rem;
 }
 
 #home aside {

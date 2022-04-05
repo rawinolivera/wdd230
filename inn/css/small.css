@@ -224,6 +224,14 @@ header #callusBtn.come img {
     width: 100%;
 }
 
+#home #for-free {
+    text-align: center;
+}
+
+#home #for-free img {
+    display: none;
+}
+
 #social {
     text-align: center;
 }

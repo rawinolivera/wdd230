@@ -11,6 +11,11 @@
     --black: #000000;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 header {
     background-color: var(--blue);
     font-family: Domine;
@@ -50,7 +55,7 @@ header div {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     padding: 0;
-    margin: .3rem 0 .3rem .3rem ;
+    margin: 0 .3rem;
     align-items: center;
 }
 
@@ -99,8 +104,12 @@ header div .menu ul li {
     list-style: none;
     text-align: center;
     padding: .5rem 0;
-    border-bottom: var(--black) 1px solid;
+    border-bottom: var(--white) 1px solid;
     font-size: 1.2rem;
+}
+
+header div .menu ul li:nth-child(4) {
+    border-bottom: 0;
 }
 
 header div .menu ul a {
@@ -152,6 +161,10 @@ header #callusBtn.come img {
     right: 4.2rem;
 }
 
+#home #banner {
+    padding-bottom: .25rem;
+}
+
 #home .welcome img {
     margin-left: auto;
     margin-right: auto;
@@ -169,7 +182,7 @@ header #callusBtn.come img {
 }
 
 #home #weather {
-    padding: .5rem 1rem;
+    padding: .5rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: var(--lgreen);
@@ -221,15 +234,19 @@ header #callusBtn.come img {
     align-items: center;
 }
 
-#ref-temple {
+#home #ref-temple {
     text-align: center;
     align-items: center;
 }
 
-#ref-temple img {
+#home #ref-temple img {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+}
+
+#home #ref-temple p {
+    margin: .5rem;
 }
 
 #home #for-free {

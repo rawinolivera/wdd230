@@ -35,6 +35,10 @@
         border-left: 1px var(--white) solid;
     }
 
+    header div .menu ul li:nth-child(1) {
+        border-left: 0;
+    }
+
     header div .menu ul li:hover {
         background-color: var(--black);
         font-weight: 900;
@@ -59,7 +63,7 @@
     }
 
     #home #call-act {
-        top: -80px;
+        top: -50px;
         right: -35px;
     }
 
@@ -150,10 +154,11 @@
         align-items: center;
     }
 
-    #for-free {
+    #home #for-free {
         background-color: var(--lgreen);
         margin-top: 1rem;
         padding: 1rem;
+        margin-bottom: 0;
     }
 
     #for-free h2 {

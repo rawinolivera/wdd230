@@ -101,6 +101,7 @@
         grid-template-columns: repeat(5, 1fr);
         align-items: center;
         text-align: center;
+        margin: .5rem;
     }
 
     #home #for-free p {

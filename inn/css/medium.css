@@ -10,6 +10,11 @@
         grid-row: 1 / 2;
     }
 
+    #home #call-act {
+        padding: .8rem 3rem;
+        font-size: 2.5rem;
+    }
+
     #home #ref-temple {
         grid-column: 1 / 5;
         grid-row: 2 / 3;
@@ -29,7 +34,7 @@
 
     #home #ref-temple p, h3 {
         grid-column: 3 / 5;
-        margin: 0rem .8rem;
+        margin: 0rem 1rem;
     }
 
     #home #ref-temple h3 {
@@ -77,8 +82,17 @@
 
     #home #serv-info h3 {
         position: absolute;
-        padding: 1rem 2.5rem 0 .3rem;
+        padding: 1rem 3rem 0 1rem;
         color: var(--black);
+    }
+
+    #home #serv-info img:hover {
+        box-shadow: var(--blue) .1rem .2rem 2rem 1rem;
+    }
+
+    #home #serv-info h3:hover {
+        color: var(--white);
+        text-shadow: var(--black) .1rem .1rem .5em;
     }
 
     #home #for-free {

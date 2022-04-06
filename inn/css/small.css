@@ -149,7 +149,7 @@ header #callusBtn.come img {
 
 #home #call-act {
     position: absolute;
-    margin: 15% 5% 0 40%;
+    margin: 15% 5% 0 35%;
     font-size: 2rem;
     background-color: rgba(255, 255, 255, 65%);
     padding: .5rem 1rem;
@@ -235,6 +235,11 @@ header #callusBtn.come img {
 
 #social {
     text-align: center;
+    background-color: var(--lgreen);
+}
+
+#social h2 {
+    padding-top: .5rem;
 }
 
 #home #social ul {
@@ -242,7 +247,8 @@ header #callusBtn.come img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 0;
-    margin: .5rem 2rem;
+    padding-bottom: .5rem;
+    margin: .5rem 2rem 0;
 }
 
 #social li img {

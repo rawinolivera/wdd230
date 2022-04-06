@@ -300,10 +300,30 @@ header #padre ul li:nth-child(1) {
     margin: .5rem 2rem 0;
 }
 
-#social li img {
+#home #social li img {
     width: 45px;
     border-radius: 15px;
     margin-left: 1.2rem;
+}
+
+#temple .unicard {
+    text-align: center;
+}
+
+#temple .unicard {
+    margin: .5rem;
+    padding: .5rem;
+    background-color: var(--lgreen);
+    font-family: El Messiri;
+}
+
+#temple .unicard h3 {
+    margin: .5rem;
+    font-size: 1.5rem;
+}
+
+#temple .unicard img {
+    width: 15rem;
 }
 
 footer {

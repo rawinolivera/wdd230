@@ -4,7 +4,7 @@
             "name": "Lima Peru Temple",
             "address": "Av. Javier Prado Este 6420 Urb. Santa Patricia La Molina, Lima 12, Peru",
             "telephone": "(51) 1-612-7200",
-            "email": "LIMA-OFF@ChurchofJesusChrist.org",
+            "email": "limatemple@ChurchofJesusChrist.org",
             "imageurl": "../inn/images/temple/lima.jpg",
             "services": [
                 {
@@ -34,7 +34,7 @@
             "name": "Arequipa Peru Temple",
             "address": "Calle Cusco 380 Carmen Alto Distrito De Cayma Arequipa, Arequipa, Peru",
             "telephone": "(51) 54-640-300",
-            "email": "AREQU-OFF@ChurchofJesusChrist.org",
+            "email": "arequipatemple@ChurchofJesusChrist.org",
             "imageurl": "../inn/images/temple/arequipa.jpg",
             "services": [
                 {
@@ -65,7 +65,7 @@
             "name": "Trujillo Peru Temple",
             "address": "Av. Mansiche Km 3.5 Carretera hacia Huanchaco Huanchaco, Trujillo, La Libertad, Peru",
             "telephone": "(51) 44-602-130",
-            "email": "TRUJI-OFF@ChurchofJesusChrist.org",
+            "email": "trujillotemple@ChurchofJesusChrist.org",
             "imageurl": "../inn/images/temple/trujillo.jpg",
             "services": [
                 {
@@ -96,7 +96,7 @@
             "name": "Bogotá Colombia Temple",
             "address": "Carrera 46 N°127-45 Bogotá Distrito Capital Colombia",
             "telephone": "(57) 1-625-8000",
-            "email": "BOGOT-OFF@ChurchofJesusChrist.org",
+            "email": "bogotatemple@ChurchofJesusChrist.org",
             "imageurl": "../inn/images/temple/bogota.jpg",
             "services": [
                 {
@@ -127,7 +127,7 @@
             "name": "Caracas Venezuela Temple",
             "address": "Avenida. C con Calle C-1, Urb Caurimare Caracas 1062-A, Dependencias  Fderales Venezuela",
             "telephone": "(58) 212-985-3051",
-            "email": "CARAC-OFF@ChurchofJesusChrist.org",
+            "email": "carcastemple@ChurchofJesusChrist.org",
             "imageurl": "../inn/images/temple/caracas.jpg",
             "services": [
                 {

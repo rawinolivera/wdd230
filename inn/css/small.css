@@ -165,6 +165,17 @@ header #callusBtn.come img {
     padding-bottom: .25rem;
 }
 
+#home #banner p {
+    position: absolute;
+    font-size: 2.5rem;
+    padding-top: .3rem;
+    padding-left: 25%;
+    font-weight: 600;
+    font-style: italic;
+    color: var(--black);
+    text-shadow: var(--white) .1rem .2rem 1rem;
+}
+
 #home .welcome img {
     margin-left: auto;
     margin-right: auto;

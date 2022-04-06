@@ -1,4 +1,175 @@
-@media only query and (min-width:64rem){
-    
+@media only screen and (min-width: 64rem){
 
+    header #menuBtn {
+        display: none;
+    }
+
+    header div #callusBtn {
+        grid-column: 10 / 11;
+        text-align: right;
+    }
+
+    header #callusBtn.come img {
+        right: 1rem;    
+    }
+
+    header #phone {
+        width: 20%;
+        right: 4rem;
+        top: .5rem;
+    }
+
+    header div .menu.open ul {
+        display: block;
+        display: flex;
+    }
+
+    header div .menu ul {
+        display: block;
+        display: flex;
+    }
+
+    header div .menu ul li {
+        padding: 1rem 1rem;
+        border-bottom: 0;
+        border-left: 1px var(--white) solid;
+    }
+
+    header div .menu ul li:hover {
+        background-color: var(--black);
+        font-weight: 900;
+        padding: 1rem;
+    }
+
+    #head-container {
+        grid-template-columns: repeat(10, 1fr);
+    }
+
+    #head-container h1 {
+        grid-column: 2 / 6;
+    }
+
+    #head-container .menu {
+        grid-column: 6 / 10;
+        grid-row: 1 / 2;
+    }
+
+    #home {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #home #call-act {
+        top: -80px;
+        right: -35px;
+    }
+
+    #home #ref-temple {
+        grid-column: 1 / 3;
+        grid-template-columns: 1fr 1fr;
+        margin: .75rem 0 0 0;
+        align-items: center;
+    }
+        
+    #home #ref-temple picture {
+        grid-column: 1 / 2;
+        grid-row: 1 / 6;
+    }
+
+    #home #ref-temple h2 {
+        grid-column: 2 / 3;
+    }
+
+    #home #ref-temple p, h3 {
+        grid-column: 2 / 3;
+    }
+
+    #home #weather {
+        margin: .75rem 0 0 0;
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+        background-color: var(--lgray);
+    }
+
+    #home #weather #mainWea {
+        grid-template-rows: repeat(4, 1fr);
+        padding: 0;
+        align-items: center;
+    }
+
+    #home #mainWea #weaDate {
+        font-size: 2rem;
+    }
+
+    #home #mainWea #weaTemp {
+        font-size: 1.8rem;
+        margin: 0;
+    }
+
+    #home #weather #mainWea br {
+        display: none;
+    }
+
+    #home #weather #mainWea #weaCond {
+        grid-column: 1 / 3;
+    }
+
+    #home #mainWea p, #humidity {
+        font-size: 1.5rem;
+        font-weight: 550;
+        margin: 0;
+    }
+
+    #home #weather #mainWea #weaHumi {
+        grid-row: 4 / 5;
+        grid-column: 1 / 3;
+    }
+
+    #home #serv-info {
+        display: none;
+    }
+
+    #home #social h2 {
+        display: none;
+    }
+
+    #home #social {
+        background-color: transparent;
+    }
+
+    #home #social {
+        grid-row: 1 / 2;
+        grid-column: 3 / 4;
+        display: grid;
+        grid-template-rows: repeat(6, 1fr);
+    }
+
+    #home #social ul {
+        grid-row: 6 / 7;
+        padding: 0 0 0 3rem;
+        margin: 0 1rem 0 4rem;
+        align-items: center;
+    }
+
+    #for-free {
+        background-color: var(--lgreen);
+        margin-top: 1rem;
+        padding: 1rem;
+    }
+
+    #for-free h2 {
+        display: none;
+    }
+
+    footer .location iframe {
+        width: 25rem;
+    }
+
+    footer .data-footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    footer .data-footer h2 {
+        text-align: center;
+    }
 }

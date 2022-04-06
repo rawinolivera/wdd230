@@ -34,7 +34,7 @@
 
     #home #ref-temple p, h3 {
         grid-column: 3 / 5;
-        margin: 0rem 1rem;
+        margin: 0 1rem;
     }
 
     #home #ref-temple h3 {

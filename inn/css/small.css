@@ -103,6 +103,11 @@ header div .menu ul li {
     font-size: 1.2rem;
 }
 
+header div .menu ul a {
+    text-decoration: none;
+    color: var(--white);
+}
+
 header div #menuBtn.open span {
     background-color: var(--lgreen);
     border: 0;
@@ -111,6 +116,12 @@ header div #menuBtn.open span {
 
 header div .menu.open ul {
     display: block;
+}
+
+header div .menu ul li:hover {
+    background-color: var(--black);
+    font-weight: 900;
+    padding: 1rem;
 }
 
 header #phone {

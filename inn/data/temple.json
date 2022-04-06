@@ -1,6 +1,7 @@
 {
     "temples": [
         {
+            "cod": "t001",
             "name": "Lima Peru Temple",
             "address": "Av. Javier Prado Este 6420 Urb. Santa Patricia La Molina, Lima 12, Peru",
             "telephone": "(51) 1-612-7200",
@@ -31,6 +32,7 @@
             ]
         },
         {
+            "cod": "t002",
             "name": "Arequipa Peru Temple",
             "address": "Calle Cusco 380 Carmen Alto Distrito De Cayma Arequipa, Arequipa, Peru",
             "telephone": "(51) 54-640-300",
@@ -62,6 +64,7 @@
             ]
         },
         {
+            "cod": "t004",
             "name": "Trujillo Peru Temple",
             "address": "Av. Mansiche Km 3.5 Carretera hacia Huanchaco Huanchaco, Trujillo, La Libertad, Peru",
             "telephone": "(51) 44-602-130",
@@ -93,6 +96,7 @@
             ]
         },
         {
+            "cod": "t004",
             "name": "Bogotá Colombia Temple",
             "address": "Carrera 46 N°127-45 Bogotá Distrito Capital Colombia",
             "telephone": "(57) 1-625-8000",
@@ -124,6 +128,7 @@
             ]
         },
         {
+            "cod": "t005",
             "name": "Caracas Venezuela Temple",
             "address": "Avenida. C con Calle C-1, Urb Caurimare Caracas 1062-A, Dependencias  Fderales Venezuela",
             "telephone": "(58) 212-985-3051",

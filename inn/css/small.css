@@ -326,6 +326,10 @@ header #padre ul li:nth-child(1) {
     width: 15rem;
 }
 
+#temple .unicard p {
+    display: none;
+}
+
 footer {
     background-color: var(--blue);
     color: var(--white);

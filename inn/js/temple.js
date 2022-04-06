@@ -60,7 +60,7 @@ function displayTemples(temple) {
     telephone.textContent = `${temple.telephone}`;
     email.textContent = `${temple.email}`;
     
-    picture.alt = `{temple.name}`;
+    picture.alt = `${temple.name}`;
     chip.className = `unicard`;
     templeName.className = `templeName`; 
 
@@ -72,3 +72,16 @@ function displayTemples(temple) {
 
     chips.appendChild(chip);
 }
+
+/*-------- PICKING A TEMPLE -------*/
+
+function pickTemple() {
+
+    document.querySelector("p").classList.toggle("pick");
+
+    
+}
+
+const pick = document.querySelector(".img");
+
+pick.onclick = pickTemple;

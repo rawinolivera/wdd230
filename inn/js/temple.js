@@ -54,12 +54,14 @@ function displayTemples(temple) {
     let telephone = document.createElement('p');
     let email = document.createElement('p');
 
+    
     templeName.textContent = `${temple.name}`;
     picture.src = temple.imageurl;
     address.textContent = `${temple.address}`;
     telephone.textContent = `${temple.telephone}`;
     email.textContent = `${temple.email}`;
     
+    chip.id = `${temple.cod}`;
     picture.alt = `${temple.name}`;
     chip.className = `unicard`;
     templeName.className = `templeName`; 

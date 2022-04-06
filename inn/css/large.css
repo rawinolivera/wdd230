@@ -45,6 +45,26 @@
         padding: 1rem;
     }
 
+    header #padre ul {
+        display: none;
+        background-color: var(--blue);
+    }
+
+    header #padre:hover ul {
+        display: block;
+        top: 4rem;
+        position: absolute;
+        flex: wrap;
+    }
+
+    header #padre ul li:nth-child(1) {
+        border-bottom: 1px solid var(--white);
+    }
+
+    header #padre ul li:nth-child(2) {
+        border-left: 0;
+    }
+
     #head-container {
         grid-template-columns: repeat(10, 1fr);
     }
@@ -62,6 +82,10 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
+    #home #banner.open {
+        display: block;
+    }
+
     #home #banner p {
         font-size: 5rem;
         top: 25%;
@@ -69,8 +93,9 @@
     }
 
     #home #call-act {
-        top: 10%;
+        top: 45%;
         right: 2%;
+        padding: .5rem 2rem;
     }
 
     #home #ref-temple {

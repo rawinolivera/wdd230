@@ -161,6 +161,11 @@ header #callusBtn.come img {
     right: 4.2rem;
 }
 
+header #padre ul li:nth-child(1) {
+    border-top: 1px solid var(--white);
+
+}
+
 #home #banner {
     padding-bottom: .25rem;
 }

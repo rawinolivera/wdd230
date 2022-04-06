@@ -10,13 +10,14 @@
     }
 
     header #callusBtn.come img {
-        right: 1rem;    
+        top: .3rem;
+        right: .7rem;
     }
 
     header #phone {
         width: 20%;
         right: 4rem;
-        top: .5rem;
+        top: 0;
     }
 
     header div .menu.open ul {

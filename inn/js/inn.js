@@ -3,6 +3,7 @@
 function toggleMenu() {
     document.querySelector(".menu").classList.toggle("open");
     document.querySelector("#menuBtn").classList.toggle("open");
+    document.querySelector("#banner").classList.toggle("open");
 }
 
 function toggleCall() {

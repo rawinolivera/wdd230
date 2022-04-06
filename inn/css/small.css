@@ -167,9 +167,9 @@ header #callusBtn.come img {
 
 #home #banner p {
     position: absolute;
-    font-size: 2.5rem;
-    padding-top: .3rem;
-    padding-left: 25%;
+    font-size: 2rem;
+    top: 15%;
+    left: 25%;
     font-weight: 600;
     font-style: italic;
     color: var(--black);
@@ -182,9 +182,14 @@ header #callusBtn.come img {
     width: 100%;
 }
 
+#home #banner.open {
+    display: none;
+}
+
 #home #call-act {
     position: absolute;
-    margin: 15% 5% 0 35%;
+    top: 19%;
+    right: 2%;
     font-size: 2rem;
     background-color: rgba(255, 255, 255, 65%);
     padding: .5rem 1rem;

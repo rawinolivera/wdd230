@@ -62,9 +62,15 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
+    #home #banner p {
+        font-size: 5rem;
+        top: 25%;
+        left: 35%;
+    }
+
     #home #call-act {
-        top: -50px;
-        right: -35px;
+        top: 10%;
+        right: 2%;
     }
 
     #home #ref-temple {
@@ -156,7 +162,7 @@
 
     #home #for-free {
         background-color: var(--lgreen);
-        margin-top: 1rem;
+        margin: 1rem 0 0 0;
         padding: 1rem;
         margin-bottom: 0;
     }

@@ -186,6 +186,10 @@
         align-items: center;
     }
 
+    #temple section {
+        margin: 1rem 4rem;
+    }
+
     #services #for-free {
         background-color: var(--lgreen);
         margin: 1rem 0 0 0;

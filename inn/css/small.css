@@ -37,7 +37,6 @@ header div {
 }
 
 a #logo {
-    width: 65px;
     grid-column: 1 / 2;
     margin: .4rem 0 .1rem .1rem;
 }
@@ -464,8 +463,8 @@ header #padre ul li:nth-child(1) {
     font-weight: 600;
 }
 
-#services #for-free picture img {
-    width: 10rem;
+#services #for-free #free span {
+    display: none;
 }
 
 #thanks {

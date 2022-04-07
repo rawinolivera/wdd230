@@ -42,7 +42,7 @@
         margin: 0;
     }
 
-    #home #for-free img {
+    #services #for-free #free img {
         display: block;
     }
 
@@ -97,6 +97,10 @@
     }
 
     #home #for-free {
+        display: none;
+    }
+
+    #services #for-free #free {
         grid-column: 1 / 6;
         grid-row: 5 / 6;
         display: grid;
@@ -106,68 +110,68 @@
         margin: .5rem 1rem;
     }
 
-    #home #for-free p {
+    #services #for-free #free p {
         margin: .5rem;
         font-weight: 600;
     }
 
-    #home #for-free picture img {
+    #services #for-free #free picture img {
         margin-left: auto;
         margin-right: auto;
         width: 100%;
         padding: .5rem .5rem .5rem 0;
     }
 
-    #home #for-free h2 {
+    #services #for-free #free h2 {
         grid-column: 1 / 6;
     }
 
-    #home #for-free #s1 {
+    #services #for-free #free #s1 {
         grid-column: 1 / 2;
         grid-row: 2 / 3;
     }
 
-    #home #for-free #sp1 {
+    #services #for-free #free #sp1 {
         grid-column: 1 / 2;
         grid-row: 3 / 4;
     }
 
-    #home #for-free #s2 {
+    #services #for-free #free #s2 {
         grid-column: 2 / 3;
         grid-row: 3 / 4;
     }
 
-    #home #for-free #sp2 {
+    #services #for-free #free #sp2 {
         grid-column: 2 / 3;
         grid-row: 2 / 3;
     }
 
-    #home #for-free #s3 {
+    #services #for-free #free #s3 {
         grid-column: 3 / 4;
         grid-row: 2 / 3;
     }
 
-    #home #for-free #sp3 {
+    #services #for-free #free #sp3 {
         grid-column: 3 / 4;
         grid-row: 3 / 4;
     }
 
-    #home #for-free #s4 {
+    #services #for-free #free #s4 {
         grid-column: 4 / 5;
         grid-row: 3 / 4;
     }
 
-    #home #for-free #sp4 {
+    #services #for-free #free #sp4 {
         grid-column: 4 / 5;
         grid-row: 2 / 3;
     }
 
-    #home #for-free #s5 {
+    #services #for-free #free #s5 {
         grid-column: 5 / 6;
         grid-row: 2 / 3;
     }
 
-    #home #for-free #sp5 {
+    #services #for-free #free #sp5 {
         grid-column: 5 / 6;
         grid-row: 3 / 4;
     }
@@ -175,6 +179,24 @@
     #home #social {
         grid-column: 1 / 5;
         grid-row: 6 / 7;
+    }
+
+    #reservation {
+        background-repeat: repeat-y;
+        background-size: 11rem;
+        background-image: url(../images/reservation/bell.jpg);
+    }
+
+    #reservation #book-form {
+        margin-left: 10.5rem;
+    }
+
+    #reservation .subheading {
+        margin-left: 12rem;
+    }
+
+    #reservation #book-form label.top input, textarea, select {
+        width: 18rem;
     }
 
     footer .location {

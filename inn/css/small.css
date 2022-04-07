@@ -332,6 +332,149 @@ header #padre ul li:nth-child(1) {
     display: block;
 }
 
+#reservation h2 {
+    text-align: center;
+    margin: 0;
+    padding-top: 1.2rem;
+}
+
+#reservation img {
+    display: none;
+}
+
+#reservation #book-form legend {
+    padding: .5rem;
+    border-radius: 12px;
+    background-color: var(--lgreen);
+    color: var(--black);
+    font-weight: 700;
+}
+
+#reservation #book-form {
+    padding: 1rem;
+}
+
+#reservation .subheading {
+    margin-left: 1rem;
+}
+
+#reservation #book-form fieldset {
+    margin: 1rem 0;
+    border: 1px solid var(--blue);
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+#reservation #book-form label.top {
+    display: block;
+    padding-top: .5rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+#reservation #book-form label.top input, textarea, select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px var(--blue);
+    border-radius: 4px;
+    padding: .5rem;
+    max-width: 19rem;
+    width: 100%;
+    background-color: var(--lgray);
+}
+
+#reservation #book-form label.cli {
+    font-size: 1rem;
+    margin-left: 0;
+    font-weight: 600;
+    max-width: 19rem;
+}
+
+#reservation #book-form #TR {
+    display: inline;
+    margin-top: .5rem;
+}
+
+#reservation #book-form label.top {
+    display: block;
+}
+
+#reservation #book-form input.submitBtn {
+    border: none;
+    background-color: var(--lgreen);
+    color: #000000;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 1rem 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: Arima Madurai;
+}
+
+#reservation #book-form label.top input:required {
+    border-left: red solid 6px;
+}
+
+#reservation #book-form label.top select:required {
+    border-left: red solid 6px;
+}
+
+#reservation #book-form label.top input:required:valid {
+    border-left: var(--lgreen) solid 6px;
+}
+
+#reservation #book-form label.top select:required:valid {
+    border-left: var(--lgreen) solid 6px;
+}
+
+#reservation #book-form label.top textarea {
+    border-left: var(--lgreen) solid 6px;
+}
+
+#services #for-free {
+    text-align: center;
+}
+
+#services #for-free #free {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: .5rem;
+}
+
+#services #for-free #free #sp1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+#services #for-free #free #sp3 {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+
+#services #for-free #free #sp5 {
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+}
+
+#services #for-free #free p {
+    padding: .5rem;
+    font-weight: 600;
+}
+
+#services #for-free picture img {
+    width: 10rem;
+}
+
+#thanks {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 1rem 0;
+}
+
 footer {
     background-color: var(--blue);
     color: var(--white);

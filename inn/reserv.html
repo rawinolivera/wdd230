@@ -43,7 +43,84 @@
         </div>
     </header>
     <main id="reservation">
-        <h2>Reservation</h2>
+        
+    <div id="book-sections">
+    <!-- BOOKING FORM -->
+        <section id="cont-form">
+            <h2>Booking Form</h2>
+          <h3 class="subheading">Hotel Booking Form</h3>
+          <form id="book-form" action="thankyou.html" method="get">
+
+            <fieldset>
+                <legend>Reservation Data:</legend>
+                <label class="top" for="location">
+                  Hotel Location:
+                  <select name="location" id="" required>
+                      <option value="">Choose the Hotel Location</option>
+                      <option value="">Lima - Peru</option>
+                      <option value="">Arequipa - Peru</option>
+                      <option value="">Trujillo - Peru</option>
+                      <option value="">Bogota - Colombia</option>
+                      <option value="">Caracas - Venezuela</option>
+                  </select>
+                </label>
+                <label class="top" for="date">
+                  Date: 
+                  <input id="date" name="date" type="date" required>
+                </label>
+                <label class="top" for="number">
+                  Number of Rooms: 
+                  <input name="number" type="number" required>
+                </label>
+                <label class="cli" for="typeofroom">
+                  <input type="radio" name="typeofroom" id="TR" required>
+                  Single Rooms | S/.20.00
+              </label><br>
+              <label class="cli" for="typeofroom">
+                <input type="radio" name="typeofroom" id="TR" required>
+                  Executive Rooms | S/.35.00
+              </label><br>
+              <label class="cli" for="typeofroom">
+                  <input type="radio" name="typeofroom" id="TR" required>
+                  Junior Suite | S/.50.00
+              </label><br>
+              <label class="cli" for="typeofroom">
+                  <input type="radio" name="typeofroom" id="TR" required>
+                  Room Suite | S/.80.00
+              </label>
+            </fieldset>
+            <fieldset>
+              <legend>Client Information:</legend>
+              <label class="top" for="firstName">
+                First name: 
+                <input name="firstName" type="text" required>
+              </label>
+              <label class="top" for="lastName">
+                Last name: 
+                <input name="lastName" type="text" required>
+              </label>
+              <label class="top" for="email">
+                Email Address: 
+                <input name="email" type="email" placeholder="myemail@email.net" required>
+              </label>
+              <label class="top" for="phoneNumb">
+                Cell phone number: 
+                <input name="phoneNumb" type="tel" required>
+              </label>
+              <label class="top" for="statecountry">
+                Home State or Country: 
+                <input name="statecountry" type="tel" required>
+              </label>
+              <label class="top" for="comments">
+                Accommodations / Comments: 
+                <textarea name="comments" id="" cols="30" rows="6"></textarea>
+              </label>
+            </fieldset>
+            <label for="">
+                <input class="submitBtn" type="submit" value="Book Now!">
+              </label>
+          </form>
+      </section>
     </main>
     <footer>
         <div class="location">

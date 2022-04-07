@@ -186,11 +186,26 @@
         align-items: center;
     }
 
-    #home #for-free {
+    #services #for-free {
         background-color: var(--lgreen);
         margin: 1rem 0 0 0;
         padding: 1rem;
         margin-bottom: 0;
+    }
+
+    #reservation {
+        background-repeat: repeat-y;
+        background-size: 22rem;
+        background-image: url(../images/reservation/bell.jpg);
+    }
+
+    #reservation #book-form {
+        margin-left: 22rem;
+        margin-right: 10rem;
+    }
+
+    #reservation .subheading {
+        margin-left: 23rem;
     }
 
     #for-free h2 {

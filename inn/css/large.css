@@ -71,6 +71,7 @@
     }
 
     #head-container h1 {
+        font-size: 2rem;
         grid-column: 2 / 6;
     }
 
@@ -226,7 +227,6 @@
 
     footer .location img {
         display: block;
-        width: 100;
         margin: 1rem;
     }
 

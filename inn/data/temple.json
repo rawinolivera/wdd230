@@ -9,10 +9,10 @@
             "imageurl": "../inn/images/temple/lima.jpg",
             "services": [
                 {
-                    "clothing rental": "available",
-                    "cafeteria": "available",
-                    "patron housing": "available",
-                    "distribution center": "nearby"
+                    "s1": "clothing rental - available",
+                    "s2": "cafeteria - available",
+                    "s3": "patron housing - available",
+                    "s4": "distribution center - nearby"
                 }
             ],
             "closures": [
@@ -40,10 +40,10 @@
             "imageurl": "../inn/images/temple/arequipa.jpg",
             "services": [
                 {
-                    "clothing rental": "no available",
-                    "cafeteria": "no available",
-                    "patron housing": "no available",
-                    "distribution center": "nearby"
+                    "s1": "clothing rental - not available",
+                    "s2": "cafeteria - not available",
+                    "s3": "patron housing - not available",
+                    "s4": "distribution center - not nearby"
                 }
             ],
             "closures": [
@@ -72,10 +72,10 @@
             "imageurl": "../inn/images/temple/trujillo.jpg",
             "services": [
                 {
-                    "clothing rental": "no available",
-                    "cafeteria": "no available",
-                    "patron housing": "no available",
-                    "distribution center": "nearby"
+                    "s1": "clothing rental - not available",
+                    "s2": "cafeteria - not available",
+                    "s3": "patron housing - not available",
+                    "s4": "distribution center - not nearby"
                 }
             ],
             "closures": [
@@ -104,10 +104,10 @@
             "imageurl": "../inn/images/temple/bogota.jpg",
             "services": [
                 {
-                    "clothing rental": "available",
-                    "cafeteria": "available",
-                    "patron housing": "available",
-                    "distribution center": "nearby"
+                    "s1": "clothing rental - available",
+                    "s2": "cafeteria - available",
+                    "s3": "patron housing - available",
+                    "s4": "distribution center - nearby"
                 }
             ],
             "closures": [
@@ -136,10 +136,10 @@
             "imageurl": "../inn/images/temple/caracas.jpg",
             "services": [
                 {
-                    "clothing rental": "no available",
-                    "cafeteria": "no available",
-                    "patron housing": "no available",
-                    "distribution center": "nearby"
+                    "s1": "clothing rental - not available",
+                    "s2": "cafeteria - not available",
+                    "s3": "patron housing - not available",
+                    "s4": "distribution center - not nearby"
                 }
             ],
             "closures": [

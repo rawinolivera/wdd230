@@ -54,7 +54,6 @@ function displayTemples(temple) {
     let telephone = document.createElement('p');
     let email = document.createElement('p');
 
-    
     templeName.textContent = `${temple.name}`;
     picture.src = temple.imageurl;
     address.textContent = `${temple.address}`;
@@ -63,7 +62,6 @@ function displayTemples(temple) {
     
     chip.id = `${temple.cod}`;
     picture.alt = `${temple.name}`;
-    chip.className = `unicard`;
     templeName.className = `templeName`; 
 
     chip.appendChild(templeName);
@@ -74,16 +72,3 @@ function displayTemples(temple) {
 
     chips.appendChild(chip);
 }
-
-/*-------- PICKING A TEMPLE -------*/
-
-function pickTemple() {
-
-    document.querySelector("p").classList.toggle("pick");
-
-    
-}
-
-const pick = document.querySelector(".img");
-
-pick.onclick = pickTemple;

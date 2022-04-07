@@ -306,28 +306,30 @@ header #padre ul li:nth-child(1) {
     margin-left: 1.2rem;
 }
 
-#temple .unicard {
+#temple section {
     text-align: center;
-}
-
-#temple .unicard {
     margin: .5rem;
     padding: .5rem;
     background-color: var(--lgreen);
     font-family: El Messiri;
 }
 
-#temple .unicard h3 {
+#temple h2 {
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+#temple section h3 {
     margin: .5rem;
     font-size: 1.5rem;
 }
 
-#temple .unicard img {
+#temple section img {
     width: 15rem;
 }
 
-#temple .unicard p {
-    display: none;
+#temple section p {
+    display: block;
 }
 
 footer {

@@ -191,6 +191,10 @@
         margin: 1rem 4rem;
     }
 
+    #services span {
+        display: block;
+    }
+
     #services #for-free {
         background-color: var(--lgreen);
         margin: 1rem 0 0 0;
@@ -211,6 +215,44 @@
 
     #reservation .subheading {
         margin-left: 23rem;
+    }
+
+    #services h2 {
+        margin-bottom: .5rem;
+    }
+
+    #services #special {
+        padding-top: .5rem;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        background-color: var(--lgray);
+    }
+
+    #services #special p {
+        padding: 2.5rem;
+        font-size: 1.5rem;
+    }
+
+    #services #special span {
+        display: block;
+    }
+
+    #services #special picture img {
+        padding: 0;
+    }
+
+    #services #special #pp1 {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+
+    #services #special #ps2 {
+        grid-row: 2 / 3;
+        grid-column: 2 / 3;
+    }
+
+    #services #for-free {
+        margin-top: 0;
     }
 
     #for-free h2 {

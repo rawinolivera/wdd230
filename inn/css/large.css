@@ -216,8 +216,18 @@
         display: none;
     }
 
+    footer .location {
+        grid-template-columns: 2.5fr 1.8fr .9fr;
+    }
+
     footer .location iframe {
         width: 25rem;
+    }
+
+    footer .location img {
+        display: block;
+        width: 100;
+        margin: 1rem;
     }
 
     footer .data-footer {

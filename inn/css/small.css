@@ -484,6 +484,10 @@ footer .location {
     text-align: center;
 }
 
+footer .location img {
+    display: none;
+}
+
 footer .location h2 {
     font-size: 1.3rem;
     margin: 0;

@@ -259,6 +259,40 @@
         display: none;
     }
 
+    #reception #p0 {
+        position: absolute;
+        width: 30%;
+        top: 11rem;
+        font-size: 2.5rem;
+        color: var(--white);
+        background-color: rgba(0, 0, 0, .3);
+        padding: .5rem;
+    }
+/*
+    #reception #food img {
+        width: 60%;
+    }
+*/
+    #reception #food {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    #reception #food #p4 {
+        display: block;
+    }
+    
+    #reception #food #pic4 {
+        display: block;
+    }
+
+    #reception #food #p4 {
+        grid-column: 3 / 5;
+    }
+    
+    #reception #food #pic4 {
+        grid-column: 3 / 5;
+    }
+
     footer .location {
         grid-template-columns: 2.5fr 1.8fr .9fr;
     }

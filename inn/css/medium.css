@@ -205,6 +205,17 @@
         width: 18rem;
     }
 
+    #reception #food #p3 {
+        display: block;
+        grid-column: 1 / 4;
+    }
+    
+    #reception #food #pic3 {
+        display: block;
+        grid-column: 1 / 4;
+        width: 70%;
+    }
+
     footer .location {
         display: grid;
         grid-template-columns: 1fr 1fr;

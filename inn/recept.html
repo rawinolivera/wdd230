@@ -1,77 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Temple Inn & Suites</title>
-    <link rel="stylesheet" href="../inn/css/small.css">
-    <link rel="stylesheet" href="../inn/css/medium.css">
-    <link rel="stylesheet" href="../inn/css/large.css">
-    <link rel="shortcut icon" href="../inn/images/favicon.ico">
-</head>
+    <link rel="stylesheet" href="../inn/css/small.css" />
+    <link rel="stylesheet" href="../inn/css/medium.css" />
+    <link rel="stylesheet" href="../inn/css/large.css" />
+    <link rel="shortcut icon" href="../inn/images/favicon.ico" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <aside id="phone">
-            <p>Phone Number:</p>
-            <p>+1 (201) 2521452</p>
-            <p>+1 (201) 6954545</p>
-        </aside>
-        <div id="head-container">
-            <a href="../inn/index.html">
-                <picture>
-                    <source media="(min-width: 520px)" srcset="../inn/images/logo70.jpg">
-                    <source media="(min-width: 0px)" srcset="../inn/images/logo65.jpg">
-                    <img id="logo" src="../inn/images/logo100.jpg" alt="Logo">
-                </picture>
-            </a>
-            <h1>The Temple Inn & Suites</h1>
-            <button id="callusBtn"><img src="../inn/images/phone-75.png" alt=""></button>
-            <button id="menuBtn">
-                <span>&#9776;</span>
-            </button>
-            <nav class="menu">
-                <ul>
-                    <li><a href="../inn/index.html">Home</a></li>
-                    <li><a href="../inn/temple.html">Temple</a></li>
-                    <li><a href="../inn/reserv.html">Reservation</a></li>
-                    <li id="padre"><a href="../inn/servic.html">Services</a>
-                        <ul>
-                            <li><a href="../inn/recept.html">Reception</a></li>
-                            <li><a href="../inn/missio.html">Temple Missionary</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
-
-        </div>
+      <aside id="phone">
+        <p>Phone Number:</p>
+        <p>+1 (201) 2521452</p>
+        <p>+1 (201) 6954545</p>
+      </aside>
+      <div id="head-container">
+        <a href="../inn/index.html">
+          <picture>
+            <source media="(min-width: 520px)" srcset="../inn/images/logo70.jpg" />
+            <source media="(min-width: 0px)" srcset="../inn/images/logo65.jpg" />
+            <img id="logo" src="../inn/images/logo100.jpg" alt="Logo" />
+          </picture>
+        </a>
+        <h1>The Temple Inn & Suites</h1>
+        <button id="callusBtn">
+          <img src="../inn/images/phone-75.png" alt="" />
+        </button>
+        <button id="menuBtn">
+          <span>&#9776;</span>
+        </button>
+        <nav class="menu">
+          <ul>
+            <li><a href="../inn/index.html">Home</a></li>
+            <li><a href="../inn/temple.html">Temple</a></li>
+            <li><a href="../inn/reserv.html">Reservation</a></li>
+            <li id="padre">
+              <a href="../inn/servic.html">Services</a>
+              <ul>
+                <li><a href="../inn/recept.html">Reception</a></li>
+                <li><a href="../inn/missio.html">Temple Missionary</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main id="reception">
-        <h2>Reception</h2>
+      <h2>Reception</h2>
+      <picture id="pic0">
+        <source media="(min-width: 1024px)" srcset="../inn/images/reception/moment900.jpg"/>
+        <source media="(min-width: 520px)" srcset="../inn/images/reception/moment500.jpg">
+        <source media="(min-width: 0px)" srcset="../inn/images/reception/moment300.jpg"/>
+        
+        <img src="../inn/images/reception/moment900.jpg" alt="Weadding Couple Moment"/>
+      </picture>
+      <p id="p0">
+        Make this moment unforgettable and keep it in your mind... We'll give you the best
+        services for your reception!!
+      </p>
+
+      <h2>Food Service Options:</h2>
+      <section id="food">
+        <h3 id="p1">Catering Service</h3>
+        <picture id="pic1">
+            <source media="(min-width: 1024px)" srcset="../inn/images/reception/catering600.jpg">
+            <source media="(min-width: 520px)" srcset="../inn/images/reception/catering380.jpg">
+            <source media="(min-width: 0px)" srcset="../inn/images/reception/catering300.jpg">
+            <img src="../inn/images/reception/catering600.jpg" alt="Catering Service">
+        </picture>
+        <h3 id="p3">Buffet</h3>
+        <img id="pic3" src="../inn/images/reception/buffet.jpg" alt="Buffet Reception">
+        <h3 id="p2">Plate Service</h3>
+        <picture id="pic2">
+            <source media="(min-width: 1024px)" srcset="../inn/images/reception/plate700.jpg">
+            <source media="(min-width: 520px)" srcset="../inn/images/reception/plate500.jpg">
+            <source media="(min-width: 0px)" srcset="../inn/images/reception/plate300.jpg">
+            <img src="../inn/images/reception/plate700.jpg" alt="Plate Service">
+        </picture>
+        <h3 id="p4">Family Style</h3>
+        <img id="pic4" src="../inn/images/reception/familystyle.jpg" alt="Family Style Service">
+    </section>
+      
     </main>
     <footer>
-        <div class="location">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d775.3530702333796!2d-77.09601459966953!3d38.98308602494375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b8f21f1%3A0x9a0b3cde14da0a60!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814%2C%20EE.%20UU.!5e0!3m2!1ses-419!2spe!4v1648656984614!5m2!1ses-419!2spe"
-                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <div>
-                <h2>4800 Montgomery Ln #300,<br> Bethesda, MD 20814</h2>
-                <h2>+1 (201) 6954545</h2>
-            </div>
-            <img src="../inn/images/logo100.jpg" alt="Logo">
+      <div class="location">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d775.3530702333796!2d-77.09601459966953!3d38.98308602494375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b8f21f1%3A0x9a0b3cde14da0a60!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814%2C%20EE.%20UU.!5e0!3m2!1ses-419!2spe!4v1648656984614!5m2!1ses-419!2spe"
+          width="400"
+          height="300"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <div>
+          <h2>
+            4800 Montgomery Ln #300,<br />
+            Bethesda, MD 20814
+          </h2>
+          <h2>+1 (201) 6954545</h2>
         </div>
-        <div class="data-footer">
-            <h2 id="credits">&#169;<span id="current-year"></span> The Temple Inn & Suites</h2>
-            <h2 id="mod-time">Last Updated: <span id="last-mod"></span></h2>
-        </div>
+        <img src="../inn/images/logo100.jpg" alt="Logo" />
+      </div>
+      <div class="data-footer">
+        <h2 id="credits">
+          &#169;<span id="current-year"></span> The Temple Inn & Suites
+        </h2>
+        <h2 id="mod-time">Last Updated: <span id="last-mod"></span></h2>
+      </div>
     </footer>
 
-
     <script src="../inn/js/reception.js"></script>
-
-</body>
-
+  </body>
 </html>

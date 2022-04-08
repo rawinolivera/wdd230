@@ -205,6 +205,10 @@
         width: 18rem;
     }
 
+    #reception {
+        margin: 1rem 2rem 0;
+    }
+
     #reception #food #p3 {
         display: block;
         grid-column: 1 / 4;

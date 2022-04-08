@@ -259,14 +259,19 @@
         display: none;
     }
 
+    #reception {
+        margin: 1rem 4rem 0;
+    }
+
     #reception #p0 {
         position: absolute;
-        width: 30%;
+        width: 25%;
         top: 11rem;
+        left: 5rem;
         font-size: 2.5rem;
         color: var(--white);
-        background-color: rgba(0, 0, 0, .3);
-        padding: .5rem;
+        background-color: rgba(0, 0, 0, .4);
+        padding: 1.5rem;
     }
 
     #reception #food {

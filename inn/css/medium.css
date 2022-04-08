@@ -216,6 +216,10 @@
         width: 70%;
     }
 
+    #missionary #contact-form {
+        margin: 0 15%;
+    }
+
     footer .location {
         display: grid;
         grid-template-columns: 1fr 1fr;

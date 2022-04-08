@@ -48,7 +48,66 @@
         </div>
     </header>
     <main id="missionary">
-        <h2>Missionary</h2>
+        <section id="suites">
+            <h2>Temple Missionary</h2>
+            <p>Special prices for temple missionaries.</p>
+            <p>See the avaliable suites:</p>
+            <h3>Junior Suite</h3>
+            <picture>
+                <source media="(min-width: 1024px)" srcset="../inn/images/missionary/junior-suite560.jpg">
+                <source media="(min-width: 520px)" srcset="../inn/images/missionary/junior-suite480.jpg">
+                <source media="(min-width: 0px)" srcset="../inn/images/missionary/junior-suite300.jpg">
+                <img src="../inn/images/missionary/junior-suite560.jpg" alt="Junior Suite">
+            </picture>
+
+            <h3>Deluxe Suite</h3>
+            <picture>
+                <source media="(min-width: 1024px)" srcset="../inn/images/missionary/deluxe-suite560.jpg">
+                <source media="(min-width: 520px)" srcset="../inn/images/missionary/deluxe-suite480.jpg">
+                <source media="(min-width: 0px)" srcset="../inn/images/missionary/deluxe-suite300.jpg">
+                <img src="../inn/images/missionary/deluxe-suite560.jpg" alt="Deluxe Suite">
+            </picture>
+
+            <h3>Executive Suite</h3>
+            <picture>
+                <source media="(min-width: 1024px)" srcset="../inn/images/missionary/executive-suite560.jpg">
+                <source media="(min-width: 520px)" srcset="../inn/images/missionary/executive-suite480.jpg">
+                <source media="(min-width: 0px)" srcset="../inn/images/missionary/executive-suite300.jpg">
+                <img src="../inn/images/missionary/executive-suite560.jpg" alt="Executive Suite">
+            </picture>
+        </section>
+
+        <section id="contact">
+            <div>
+                <h2>For more information about the suite services send your questions...</h2>
+                <img src="../inn/images/reception300.jpg" alt="Contact Infomation image">
+            </div>
+
+            <form id="contact-form" action="../inn/thankyou.html" method="get">
+                <h3 class="heading">Contact Us Form</h2>
+                <fieldset>
+                    <legend>Basic Data:</legend>
+                    <label class="set" for="firstname">
+                        First Name:
+                        <input type="text" name="firstname" id="" required>
+                    </label>
+                    <label class="set" for="lastname">
+                        Last Name:
+                        <input type="text" name="lastname" id="" required>
+                    </label>
+                    <label class="set" for="email">
+                        Email:
+                        <input type="email" name="email" id="" required>
+                    </label>
+                    <label class="set" for="comments">
+                        Any Comments or Questions?
+                        <textarea name="comments" id="" cols="30" rows="10"></textarea>
+                    </label>
+                </fieldset>
+                <input class="submmit" type="submit" value="Contact">
+            </form>
+        </section>
+
     </main>
     <footer>
         <div class="location">

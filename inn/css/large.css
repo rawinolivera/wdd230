@@ -268,11 +268,7 @@
         background-color: rgba(0, 0, 0, .3);
         padding: .5rem;
     }
-/*
-    #reception #food img {
-        width: 60%;
-    }
-*/
+
     #reception #food {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
@@ -291,6 +287,36 @@
     
     #reception #food #pic4 {
         grid-column: 3 / 5;
+    }
+
+    #missionary {
+        display: grid;
+        grid-template-columns: .8fr 1.2fr;
+    }
+
+    #missionary #contact-form {
+        margin: 0 4%;
+    }
+
+    #missionary #suites {
+        margin: 3rem 2rem;
+    }
+
+    #missionary #contact div {
+        display: block;
+        margin: 3rem 3rem 2rem 1rem;
+    }
+
+    #missionary #contact h2 {
+        position: absolute;
+        margin: 2rem 9rem 1rem 1rem;
+        line-height: 1.7rem;
+    }
+
+    #missionary #contact img {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
     }
 
     footer .location {

@@ -545,6 +545,93 @@ header #padre ul li:nth-child(1) {
     display: none;
 }
 
+#missionary {
+    text-align: center;
+}
+
+#missionary #contact h3 {
+    font-size: 1.5rem;
+}
+
+#missionary #contact-form legend {
+    padding: .5rem;
+    border-radius: 12px;
+    background-color: var(--lgreen);
+    font-weight: 700;
+}
+
+#missionary #contact-form {
+    padding: 1rem;
+    text-align: left;
+}
+
+#missionary .heading {
+    margin-left: 1rem;
+}
+
+#missionary #contact-form fieldset {
+    margin: 1rem 0;
+    border: 1px solid var(--blue);
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+#missionary #contact-form label.set {
+    display: block;
+    padding-top: .5rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+#missionary #contact-form label.set input, textarea {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px var(--blue);
+    border-radius: 4px;
+    padding: .5rem;
+    max-width: 19rem;
+    width: 100%;
+    background-color: var(--lgray);
+}
+
+#missionary #contact-form label.set {
+    display: block;
+}
+
+#missionary #contact-form input.submmit {
+    border: none;
+    background-color: var(--lgreen);
+    color: var(--black);
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 1rem 0 2rem 2%;
+    width: 96%;
+    max-width: 19rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: Arima Madurai;
+}
+
+#missionary #contact-form label.set input:required {
+    border-left: 6px solid red;
+}
+
+#missionary #contact-form label.set input:valid {
+    border-left: 6px solid var(--lgreen);
+}
+
+#missionary #contact-form label.set textarea:required {
+    border-left: 6px solid red;
+}
+
+#missionary #contact-form label.set textarea:valid {
+    border-left: 6px solid var(--lgreen);
+}
+
+#missionary #contact div {
+    display: none;
+}
+
 #thanks {
     margin-left: auto;
     margin-right: auto;
